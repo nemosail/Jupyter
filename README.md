@@ -10,3 +10,4 @@
 4. Documents, some binary documents/words/xls template
 
 Now I can write diaries at work and at dorm.
+Add On Win10 Git For Windows... It seems everything is ok.
