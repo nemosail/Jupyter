@@ -26,9 +26,14 @@ But I think working under linux is much happier and the future...
 
 ## Lifestyle Management
 1. Take care of you teeth... Clean & Wash on time.
-2. Body exercise...flexibality...
+2. Body exercise...flexibality...宿舍锻炼腹肌/拉伸/柔韧
 3. Sit & Think [like Steve Jobs](http://36kr.com/p/5053048.html)
+
 
 ## Thoughts...
 1. B站视频与BGM的分离，可以默认BGM也可以自己选择BGM?
 2. 比冲 与 推力
+
+## Entertainment
+1. Games... Kerbals' Space Program / MineCraft / Don't Starve
+2. Taking Photos... Where are you going?
