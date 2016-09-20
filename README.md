@@ -22,6 +22,7 @@ But I think working under linux is much happier and the future...
 1. Books, 书(银行/编程/机器学习/远见，潮流); list=Jupyter/Books_List
 2. Coding, 编程，思考，本质; list=GitHub/Kaggle/Python/C++/Algorithm/ML,AI/LeetCode/hackerrank/OS
 3. Cars/Industry, 汽车，工业; list=知乎Topic/公开课
+4. NewStuff, AR/VR/3DPrinter
 
 
 ## Lifestyle Management
