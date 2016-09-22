@@ -23,6 +23,7 @@ But I think working under linux is much happier and the future...
 2. Coding, 编程，思考，本质; list=GitHub/Kaggle/Python/C++/Algorithm/ML,AI/LeetCode/hackerrank/OS
 3. Cars/Industry, 汽车，工业; list=知乎Topic/公开课
 4. NewStuff, AR/VR/3DPrinter
+5. 音乐/交响乐/; list=月亮之上交响版
 
 
 ## Lifestyle Management
@@ -42,7 +43,11 @@ But I think working under linux is much happier and the future...
 2. Taking Photos... Where are you going?
 
 
+## 向死而生
+
+
 ## What is?
 1. 什么是云？ 从 单机私有 到 联机私有？？
 2. 共享经济？ Uber/AirB&B/... 还有吗？
+
 
