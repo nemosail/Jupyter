@@ -36,7 +36,13 @@ But I think working under linux is much happier and the future...
 2. 比冲 与 推力
 3. 语音学习/识别; 自然语言NLP处理/学习/理解; 图像识别/处理; 视频处理/识别
 
+
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve
 2. Taking Photos... Where are you going?
+
+
+## What is?
+1. 什么是云？ 从 单机私有 到 联机私有？？
+2. 共享经济？ Uber/AirB&B/... 还有吗？
 
