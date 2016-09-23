@@ -43,9 +43,6 @@ But I think working under linux is much happier and the future...
 2. Taking Photos... Where are you going?
 
 
-## 向死而生
-
-
 ## What is?
 1. 什么是云？ 从 单机私有 到 联机私有？？
 2. 共享经济？ Uber/AirB&B/... 还有吗？
