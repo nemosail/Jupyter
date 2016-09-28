@@ -24,6 +24,7 @@ But I think working under linux is much happier and the future...
 3. Cars/Industry, 汽车，工业; list=知乎Topic/公开课
 4. NewStuff, AR/VR/3DPrinter
 5. 音乐/交响乐/; list=月亮之上交响版
+6. 前沿，AR/VR/视频/图像/声音，加工/辅助/处理
 
 
 ## Lifestyle Management
