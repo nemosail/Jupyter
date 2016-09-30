@@ -1,6 +1,7 @@
 # Ideas
 
 > Author   : IMSE/nemosail
+
 > Email    : nemosail _AT_ foxmail.com
 
 ---
