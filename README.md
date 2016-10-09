@@ -51,5 +51,6 @@ But I think working under linux is much happier and the future...
 1. 什么是云？ 从 单机私有 到 联机私有？？
 2. 共享经济？ Uber/AirB&B/... 还有吗？
 3. 社交网络，社交化编程，社交化分享，社交化知识? B站提供关注Up主上传视频，可以关注普通用户的收藏等等动作吗？
+4. 隐形的二维码，也就是肉眼不可见，但是手机可以识别的二维码？
 
 
