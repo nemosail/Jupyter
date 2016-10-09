@@ -44,6 +44,7 @@ But I think working under linux is much happier and the future...
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve
 2. Taking Photos... Where are you going?
+3. TV shows... GoT, Westworld
 
 
 ## What is?
