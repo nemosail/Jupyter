@@ -39,6 +39,7 @@ But I think working under linux is much happier and the future...
 1. B站视频与BGM的分离，可以默认BGM也可以自己选择BGM?
 2. 比冲 与 推力
 3. 语音学习/识别; 自然语言NLP处理/学习/理解; 图像识别/处理; 视频处理/识别
+4. 使用计算机科学CS的方式去应用到传统工业？ 建筑设计，交互参与？ 在动工前就可以很好体验到结果？ 处理好各种细节和扩展？
 
 
 ## Entertainment
@@ -53,4 +54,8 @@ But I think working under linux is much happier and the future...
 3. 社交网络，社交化编程，社交化分享，社交化知识? B站提供关注Up主上传视频，可以关注普通用户的收藏等等动作吗？
 4. 隐形的二维码，也就是肉眼不可见，但是手机可以识别的二维码？
 
+## ToDoList
+1. Get LearningPython...
+2. Get SICP
+3. Get LearningPerl(小骆驼？）
 
