@@ -36,14 +36,16 @@ But I think working under linux is much happier and the future...
 
 
 ## Thoughts...
+0. 沙盒游戏s
 1. B站视频与BGM的分离，可以默认BGM也可以自己选择BGM?
 2. 比冲 与 推力
 3. 语音学习/识别; 自然语言NLP处理/学习/理解; 图像识别/处理; 视频处理/识别
 4. 使用计算机科学CS的方式去应用到传统工业？ 建筑设计，交互参与？ 在动工前就可以很好体验到结果？ 处理好各种细节和扩展？
+5. 就像 minecraft的红石电路一样，我可以往 ksp/Besiege 里面添加编程模块吗？也就是在Besiege建了机械的飞机后，开发自己的航电。。。具像&&抽象
 
 
 ## Entertainment
-1. Games... Kerbals' Space Program / MineCraft / Don't Starve
+1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
 2. Taking Photos... Where are you going?
 3. TV shows... GoT, Westworld
 
