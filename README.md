@@ -44,7 +44,7 @@ But I think working under linux is much happier and the future...
 5. 就像 minecraft的红石电路一样，我可以往 ksp/Besiege 里面添加编程模块吗？也就是在Besiege建了机械的飞机后，开发自己的航电。。。具像&&抽象
 6. 二进制与源代码， 文本文件与二进制文件
 7. 如何让机器之间相互对话？ 两台完全不一样的机器如何通讯，订立协议？ 使用文本来商量;使用二进制来工作? 就是机器之间能自动建立/沟通能够使用的协议，不需要人类介入。
-
+8. 宏观大尺度与微观微尺度，空间技术;MEMS/量子/分子机器
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
@@ -70,3 +70,5 @@ But I think working under linux is much happier and the future...
 1. 宿舍暖光灯
 2. 小的电暖气
 3. 标准的量具，尺子/游标卡尺，温度/湿度，质量，时间，万用表，摄影/录像/热成像(scalar field/vector field)
+4. Get Internet Access...生活必需品？
+5. 羽毛球拍该拉线了，哈
