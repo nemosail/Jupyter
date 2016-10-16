@@ -69,6 +69,6 @@ But I think working under linux is much happier and the future...
 0. Ask ZhiHu && Think yourself, stay hungry, stay young... Always have heart&ledder, see the whole world/internet.
 1. 宿舍暖光灯
 2. 小的电暖气
-3. 标准的量具，尺子/游标卡尺，温度/湿度，质量，时间，万用表，摄影/录像/热成像(scalar field/vector field)
+3. 标准的量具，尺子/游标卡尺，温度/湿度，质量，时间，万用表，摄影/录像/热成像(scalar field/vector field)，电力检测仪/功率/瓦数
 4. Get Internet Access...生活必需品？
-5. 羽毛球拍该拉线了，哈
+5. 羽毛球拍该拉线了，咱们业余的应该用那一种？ BG65/BG65Ti，多少磅，羽毛球的70内的就 泰来+？？; RSL亚狮龙？ 找找相关资料把-> Ideas
