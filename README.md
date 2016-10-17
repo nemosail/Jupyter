@@ -50,6 +50,7 @@ But I think working under linux is much happier and the future...
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
 2. Taking Photos... Where are you going?
 3. TV shows... GoT, Westworld
+4. | 如何像射手影音一样自动下载字幕？如果知道一样事物如何工作，那就可以嘿嘿，使用python自动化，从R_rbg下载源文件,从SubHD下载对应字幕,然后～～
 
 
 ## What is?
