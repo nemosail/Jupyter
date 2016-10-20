@@ -46,6 +46,8 @@ But I think working under linux is much happier and the future...
 6. 二进制与源代码， 文本文件与二进制文件
 7. 如何让机器之间相互对话？ 两台完全不一样的机器如何通讯，订立协议？ 使用文本来商量;使用二进制来工作? 就是机器之间能自动建立/沟通能够使用的协议，不需要人类介入。
 8. 宏观大尺度与微观微尺度，空间技术;MEMS/量子/分子机器
+9. 不同的机器，分享屏幕，软件实现？
+10. VR+无人机，个人飞行员体验
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
