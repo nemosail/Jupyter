@@ -48,6 +48,7 @@ But I think working under linux is much happier and the future...
 8. 宏观大尺度与微观微尺度，空间技术;MEMS/量子/分子机器
 9. 不同的机器，分享屏幕，软件实现？
 10. VR+无人机，个人飞行员体验
+11. 分布式集群/Ambari/Hadoop生态圈
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
