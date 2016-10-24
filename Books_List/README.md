@@ -40,3 +40,7 @@ Element Of Statics Learning
 ## Control Theory
 Flying Algorithm 航电/飞行控制算法
 
+## Others
+欺骗的艺术
+
+
