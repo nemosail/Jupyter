@@ -86,3 +86,12 @@ But I think working under linux is much happier and the future...
 1. [枣](http://www.guokr.com/post/708471/)
 2. 柠檬
 3. 火龙果
+
+## Weekday Arrangement...
+    - Sunday:    Run QianDengLake
+    - Monday:    Work&Study
+    - Tuesday:   Work&Study
+    - Wednesday: Badminton
+    - Thursday:  work&Study
+    - Friday:    Youga&Badminton
+    - Saturday:  Work&Study
