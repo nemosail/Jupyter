@@ -22,12 +22,13 @@ But I think working under linux is much happier and the future...
 ## Spare Time Management
 1. Books, 书(银行/编程/机器学习/Physics/远见，潮流); list=Jupyter/Books_List/Physics/Bill_Gates_Book
 2. Coding, 编程，思考，基础，本源，本质; list=GitHub/Kaggle/Python/C++/Algorithm/ML,AI/LeetCode/hackerrank/OS
-3. Cars/Industry, 汽车，工业; list=知乎Topic/公开课
+3. Cars/Industry, 汽车，3D打印，工业; list=知乎Topic/公开课
 4. NewStuff, AR/VR/3DPrinter
 5. 音乐/交响乐/; list=月亮之上交响版
 6. 前沿，AR/VR/视频/图像/声音，加工/辅助/处理
 7. 数学, Mathmitics; list=线性代数;矩阵运算;黎曼几何;...
 8. 每天读几k个字，每天写几百个字，慢慢积累，量变到质变，像LeeMz一样逻辑清晰，数据有力，模型准确
+9. Courses, 公开课，选课，概率论，线性代数，机器学习，深度学习
 
 
 ## Lifestyle Management
