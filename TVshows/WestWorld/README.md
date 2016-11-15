@@ -16,3 +16,9 @@ deloris lie撒谎，她貌似一直说we，也就是anorid？
 ---
 #### Way to wake up yourself from inner world
 当不知到在梦里/里世界的时候，像西部世界里面的老Qi的做法，深呼吸，3，2，1，wake up...can you?自由穿梭在里世界/现实世界。。。
+
+---
+#### 细思极恐
+Ford有私人的equipment，也就是他可以制造hosts，难道那些工作人员全是hosts，然后董事会派来的人，Ford一言不合就干掉，然后用host替换掉，感觉用host来束缚人的思想这个挺有趣的，现在可以看到了，hosts是可以很暴力，可以杀人的。
+
+而It's look nothing to me. 是程序的标准回答，当host看到它does not suppose to see的时候，这个就是标准回答，也就是它肯定是host了，因为它被编程成忽略这些事实，就像Git里面的git ignore文件。。。
