@@ -93,5 +93,5 @@ But I think working under linux is much happier and the future...
     - Tuesday:   Work&Study
     - Wednesday: Badminton
     - Thursday:  work&Study
-    - Friday:    Youga&Badminton
+    - Friday:    Yoga&Badminton
     - Saturday:  Lazy~~ or Study~~ or my AI&ML
