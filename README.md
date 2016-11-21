@@ -73,7 +73,7 @@ But I think working under linux is much happier and the future...
 5. Done - Get Shell Programming
 6. Pending: Get LearningHaskell
 7. Pending: Get MachineLearningBooks
-8. Pending: **Miss Ren likes to listen to my keyboard typing sound! Can be a birthday present. She is so cute...**
+8. Pending: **Miss Ren likes to listen to my keyboard typing sound! Can be a birthday present. She is so cute...201708**
 
 ## Improve Life Living Quarity
 0. Ask ZhiHu && Think yourself, stay hungry, stay young... Always have heart&ledder, see the whole world/internet.
