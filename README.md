@@ -66,13 +66,14 @@ But I think working under linux is much happier and the future...
 
 
 ## ToDoList
-1. Get LearningPython...
-2. Get SICP
-3. Get LearningPerl(小骆驼？）
-4. Get RegularExpression
-5. Get Shell Programming
-6. Get LearningHaskell
-7. Get MachineLearningBooks
+1. Done - Get LearningPython...
+2. Done - Get SICP
+3. Pending: Get LearningPerl(小骆驼？）
+4. Done - Get RegularExpression
+5. Done - Get Shell Programming
+6. Pending: Get LearningHaskell
+7. Pending: Get MachineLearningBooks
+8. Pending: **Miss Ren likes to listen to my keyboard typing sound! Can be a birthday present. She is so cute...**
 
 ## Improve Life Living Quarity
 0. Ask ZhiHu && Think yourself, stay hungry, stay young... Always have heart&ledder, see the whole world/internet.
