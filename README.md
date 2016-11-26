@@ -88,6 +88,7 @@ But I think working under linux is much happier and the future...
 1. [枣](http://www.guokr.com/post/708471/)
 2. 柠檬
 3. 火龙果
+4. Miss Ren likes 榴莲。。。?
 
 ## Weekday Arrangement...
     - Sunday:    Run QianDengLake
