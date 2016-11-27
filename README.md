@@ -52,6 +52,7 @@ But I think working under linux is much happier and the future...
 9. 不同的机器，分享屏幕，软件实现？
 10. VR+无人机，个人飞行员体验
 11. 分布式集群/Ambari/Hadoop生态圈
+12. 好产品就是要让用户用完就走的...
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
