@@ -34,8 +34,9 @@ But I think working under linux is much happier and the future...
 
 ## Lifestyle Management
 1. Take care of you teeth... Clean & Wash on time.
-2. Body exercise...flexibality...Run...宿舍锻炼腹肌/拉伸/柔韧
+2. Body exercise...flexibality...Run...宿舍锻炼腹肌/拉伸/柔韧/深蹲
 3. Sit & Think [like Steve Jobs](http://36kr.com/p/5053048.html)
+4. I used to be afraid of thoes unknown and I still am. Don't be afraid, we all have to face it someday somehow.
 
 
 ## Thoughts...
@@ -51,13 +52,14 @@ But I think working under linux is much happier and the future...
 9. 不同的机器，分享屏幕，软件实现？
 10. VR+无人机，个人飞行员体验
 11. 分布式集群/Ambari/Hadoop生态圈
+12. 好产品就是要让用户用完就走的...
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
 2. Taking Photos... Where are you going?
 3. TV shows... GoT, Westworld
 4. | 如何像射手影音一样自动下载字幕？如果知道一样事物如何工作，那就可以嘿嘿，使用python自动化，从R_rbg下载源文件,从SubHD下载对应字幕,然后～～
-
+5. agar.io/mope.io/wild.io...
 
 ## What is?
 1. 什么是云？ 从 单机私有 到 联机私有？？
@@ -88,6 +90,9 @@ But I think working under linux is much happier and the future...
 1. [枣](http://www.guokr.com/post/708471/)
 2. 柠檬
 3. 火龙果
+4. Miss Ren likes 榴莲。。。?
+5. Where are you going...
+6. 她喜欢喝喜茶？ What am I supposed to do?
 
 ## Weekday Arrangement...
     - Sunday:    Run QianDengLake
