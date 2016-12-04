@@ -103,3 +103,19 @@ But I think working under linux is much happier and the future...
     - Thursday:  work&Study
     - Friday:    Yoga&Badminton
     - Saturday:  Lazy~~ or Study~~ or my AI&ML
+    
+## Unix Philosophy
+- Everything （including hardware） is a file
+    所有的事物（甚至硬件本身）都是一个的文件。
+ 
+- Configuration data stored in text
+    以文本形式储存配置数据。
+ 
+- Small， single-purpose program
+    程序尽量朝向小而单一的目标设计
+ 
+- Avoid captive user interfaces
+    尽量避免令人困惑的用户接口
+ 
+- Ability to chain program together to perform complex tasks
+    将几个程序连结起来，处理大而复杂的工作。
