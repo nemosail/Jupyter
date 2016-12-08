@@ -54,6 +54,8 @@ But I think working under linux is much happier and the future...
 11. 分布式集群/Ambari/Hadoop生态圈
 12. 好产品就是要让用户用完就走的...
 13. 异常分析, 找出离群点, Anomaly detection
+14. Can Jupyter Notebook Support Vim/Emacs Editor???
+15. It seems Github 的贡献墙可以写文字的，对吧？？Control You Push Action, You Can 'Write' Word On It! But You Need A Program To Help You To Doit...Right? Humans tend to make mistake, but a well-written program doesn't.
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
