@@ -105,7 +105,10 @@ But I think working under linux is much happier and the future...
     - Wednesday: Badminton
     - Thursday:  work&Study
     - Friday:    Yoga&Badminton
-    - Saturday:  Lazy~~ or Study~~ or my AI&ML, 做完瑜伽可以多做几组引体向上...类成Dogs啊...
+    - Saturday:  Lazy~~ or Study~~ or my AI&ML
+    
+- 做完瑜伽可以多做几组引体向上...会不会累成Dogs啊...
+- Monday, Wednesday, Friday watch news(TV13) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
     
 ## Unix Philosophy
 - Everything （including hardware） is a file
