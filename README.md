@@ -56,6 +56,7 @@ But I think working under linux is much happier and the future...
 13. 异常分析, 找出离群点, Anomaly detection
 14. Can Jupyter Notebook Support Vim/Emacs Editor???
 15. It seems Github 的贡献墙可以写文字的，对吧？？Control You Push Action, You Can 'Write' Word On It! But You Need A Program To Help You To Doit...Right? Humans tend to make mistake, but a well-written program doesn't.
+16. 如何Model人类手部,结合VR和AR,这样虚拟世界就更加真实一致
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
@@ -104,7 +105,7 @@ But I think working under linux is much happier and the future...
     - Wednesday: Badminton
     - Thursday:  work&Study
     - Friday:    Yoga&Badminton
-    - Saturday:  Lazy~~ or Study~~ or my AI&ML
+    - Saturday:  Lazy~~ or Study~~ or my AI&ML, 做完瑜伽可以多做几组引体向上...类成Dogs啊...
     
 ## Unix Philosophy
 - Everything （including hardware） is a file
