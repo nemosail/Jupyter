@@ -110,7 +110,21 @@ But I think working under linux is much happier and the future...
     
 - 做完瑜伽可以多做几组引体向上...会不会累成Dogs啊...
 - Monday, Wednesday, Friday watch news(TV13 or TV2) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
-    
+
+## Every Year, Every Month, Every Week... Things To Be Done
+---
+#### Every Year 
+- At least 2 open clasee done.
+- At least 2 technology books.
+
+---
+#### Every Month
+- 1 simple book..
+
+---
+#### Every Week
+- 2 small programs, small problems, Stay Sharp.
+
 ## Unix Philosophy
 - Everything （including hardware） is a file
     所有的事物（甚至硬件本身）都是一个的文件。
