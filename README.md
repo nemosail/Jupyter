@@ -36,8 +36,9 @@ But I think working under linux is much happier and the future...
 ## Lifestyle Management
 1. Take care of you teeth... Clean & Wash on time.
 2. Body exercise...flexibality...Run...宿舍锻炼腹肌/拉伸/柔韧/120深蹲
-3. Sit & Think [like Steve Jobs](http://36kr.com/p/5053048.html)
+3. Sit & Think & Read [like Steve Jobs](http://36kr.com/p/5053048.html)
 4. I used to be afraid of thoes unknown and I still am. Don't be afraid, we all have to face it someday somehow.
+5. Stay hungry, Stay Young, Stay Foolish. Say Yes To Us. Say No To Them.
 
 
 ## Thoughts...
