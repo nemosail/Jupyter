@@ -39,6 +39,7 @@ But I think working under linux is much happier and the future...
 3. Sit & Think & Read [like Steve Jobs](http://36kr.com/p/5053048.html)
 4. I used to be afraid of thoes unknown and I still am. Don't be afraid, we all have to face it someday somehow.
 5. Stay hungry, Stay Young, Stay Foolish. Say Yes To Us. Say No To Them.
+6. 实事求是吧~
 
 
 ## Thoughts...
