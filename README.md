@@ -42,6 +42,7 @@ But I think working under linux is much happier and the future...
 6. 实事求是吧~
 7. 对自己要求高点,对自己狠点吧~
 8. 学会利用信息进行决策，学会比较，生活就是带约束的最优化问题嘛～(Not For Emotion)
+9. Learn to take care people & things...Live with heart~
 
 
 ## Thoughts...
