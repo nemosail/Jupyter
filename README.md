@@ -40,6 +40,7 @@ But I think working under linux is much happier and the future...
 4. I used to be afraid of thoes unknown and I still am. Don't be afraid, we all have to face it someday somehow.
 5. Stay hungry, Stay Young, Stay Foolish. Say Yes To Us. Say No To Them.
 6. 实事求是吧~
+7. 对自己要求高点,对自己狠点吧~
 
 
 ## Thoughts...
@@ -61,6 +62,7 @@ But I think working under linux is much happier and the future...
 15. It seems Github 的贡献墙可以写文字的，对吧？？Control You Push Action, You Can 'Write' Word On It! But You Need A Program To Help You To Doit...Right? Humans tend to make mistake, but a well-written program doesn't.
 16. 如何Model人类手部,结合VR和AR,这样虚拟世界就更加真实一致
 17. Markov Model,马尔可夫,隐变量...
+18. Keep reading papers, articles, mathmatics, 坚持阅读论文,博客,比赛,数学,跟上时代,跟上思维,保持Sharp.
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
