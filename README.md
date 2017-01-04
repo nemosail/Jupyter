@@ -41,8 +41,6 @@ But I think working under linux is much happier and the future...
 5. Stay hungry, Stay Young, Stay Foolish. Say Yes To Us. Say No To Them.
 6. 实事求是吧~
 7. 对自己要求高点,对自己狠点吧~
-8. 学会利用信息进行决策，学会比较，生活就是带约束的最优化问题嘛～(Not For Emotion)
-9. Learn to take care people & things...Live with heart~
 
 
 ## Thoughts...
@@ -65,6 +63,7 @@ But I think working under linux is much happier and the future...
 16. 如何Model人类手部,结合VR和AR,这样虚拟世界就更加真实一致
 17. Markov Model,马尔可夫,隐变量...
 18. Keep reading papers, articles, mathmatics, 坚持阅读论文,博客,比赛,数学,跟上时代,跟上思维,保持Sharp.
+19. 直接使用代码Python/Matlab/Octave/R/Haskell做有趣的项目,AI/ML/DL,或者做有趣的挖掘,漂亮的报表/博客.
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
@@ -78,6 +77,7 @@ But I think working under linux is much happier and the future...
 2. 共享经济？ Uber/AirB&B/... 还有吗？
 3. 社交网络，社交化编程，社交化分享，社交化知识? B站提供关注Up主上传视频，可以关注普通用户的收藏等等动作吗？
 4. 隐形的二维码，也就是肉眼不可见，但是手机可以识别的二维码？
+5. Github/Jupyter Notebook 给出链接的时候是可以给相对路径的,一般来说**相对路径**和**绝对路径**都是没问题的...
 
 
 ## ToDoList
@@ -91,6 +91,7 @@ But I think working under linux is much happier and the future...
 8. Pending: **Miss Ren likes to listen to my keyboard typing sound! Can be a birthday present. She is so cute...201708**
 9. Pending: Find some beautiful person pictures, learn from them. Let's take some nice pics. 学着去拍漂亮的人像...Take more pictures when we are young...
 
+
 ## Improve Life Living Quarity
 0. Ask ZhiHu && Think yourself, stay hungry, stay young... Always have heart&ledder, see the whole world/internet.
 1. 宿舍暖光灯
@@ -99,6 +100,7 @@ But I think working under linux is much happier and the future...
 4. Get Internet Access...生活必需品？
 5. 羽毛球拍该拉线了，咱们业余的应该用那一种？ BG65/BG65Ti，多少磅，羽毛球的70内的就 泰来+？？; RSL亚狮龙？ 找找相关资料把-> Ideas
 
+
 ## Plants/Fruits/[Guokr](http://www.guokr.com/group/36/)
 1. [枣](http://www.guokr.com/post/708471/)
 2. 柠檬
@@ -106,6 +108,7 @@ But I think working under linux is much happier and the future...
 4. Miss Ren likes 榴莲。。。?
 5. Where are you going...
 6. 她喜欢喝喜茶？ What am I supposed to do?
+
 
 ## Weekday Arrangement...
     - Sunday:    Run QianDengLake
@@ -118,6 +121,7 @@ But I think working under linux is much happier and the future...
     
 - 做完瑜伽可以多做几组引体向上...会不会累成Dogs啊...
 - Monday, Wednesday, Friday watch news(TV13 or TV2) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
+
 
 ## Every Year, Every Month, Every Week... Things To Be Done
 ---
@@ -132,6 +136,7 @@ But I think working under linux is much happier and the future...
 ---
 #### Every Week
 - 2 small programs, small problems, Stay Sharp.
+
 
 ## Unix Philosophy
 - Everything （including hardware） is a file
