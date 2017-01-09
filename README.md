@@ -41,6 +41,7 @@ But I think working under linux is much happier and the future...
 5. Stay hungry, Stay Young, Stay Foolish. Say Yes To Us. Say No To Them.
 6. 实事求是吧~
 7. 对自己要求高点,对自己狠点吧~
+8. ML/AI/DL/Math/Programming 自己的根基不能丢，同时也不能被时代落下. 
 
 
 ## Thoughts...
@@ -138,6 +139,12 @@ But I think working under linux is much happier and the future...
 ---
 #### Every Week
 - 2 small programs, small problems, Stay Sharp.
+
+---
+#### Every day, Just Try To Finish It.
+- 0.5h Banking & Economy & Finance
+- 0.5h CS & Trend
+- 0.5h Just Knowledge
 
 
 ## Unix Philosophy
