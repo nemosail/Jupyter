@@ -41,7 +41,8 @@ But I think working under linux is much happier and the future...
 5. Stay hungry, Stay Young, Stay Foolish. Say Yes To Us. Say No To Them.
 6. 实事求是吧~
 7. 对自己要求高点,对自己狠点吧~
-8. ML/AI/DL/Math/Programming 自己的根基不能丢，同时也不能被时代落下. 
+8. ML/AI/DL/Math/Programming 自己的根基不能丢，同时也不能被时代落下.
+9. **终极目标:SAY NO TO THEM. 把所有重复繁重不需要动脑的部分都交由程序机器去执行,释放自己,去设计/实现更强大更复杂的模型,更智能的程序,甚至真正意义上的超强AI.**
 
 
 ## Thoughts...
@@ -144,7 +145,7 @@ But I think working under linux is much happier and the future...
 #### Every day, Just Try To Finish It.
 - 0.5h Banking & Economy & Finance
 - 0.5h CS & Trend
-- 0.5h Just Knowledge
+- 0.5h News & Knowledge
 
 
 ## Unix Philosophy
