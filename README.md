@@ -153,7 +153,7 @@ But I think working under linux is much happier and the future...
 ## Unix Philosophy
 - Everything （including hardware） is a file
     所有的事物（甚至硬件本身）都是一个的文件。
- 
+
 - Configuration data stored in text
     以文本形式储存配置数据。
  
