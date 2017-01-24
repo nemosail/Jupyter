@@ -31,7 +31,8 @@ But I think working under linux is much happier and the future...
 9. Courses, 公开课，选课，离散数学,自动机,最优化计算,随机过程,概率论,线性代数,机器学习,深度学习...
 10. 经济学,Yale的经济/金融公开课,open163,各种公开课平台等...Why do I get so many things to learn?
 11. 多上课,翻书,上Wiki,上知乎,上博客,github,stackoverflow,quora...感觉自己在退化啊~~~跟上时代,变与不变
-12. 陪任萌菇凉...
+12. 大胆假设,小心求证.
+13. 陪任萌菇凉...
 
 
 ## Lifestyle Management
@@ -115,6 +116,7 @@ But I think working under linux is much happier and the future...
 4. Miss Ren likes 榴莲。。。?
 5. Where are you going...
 6. 她喜欢喝喜茶？ What am I supposed to do?
+7. guziguzi
 
 
 ## Weekday Arrangement...
@@ -158,7 +160,7 @@ But I think working under linux is much happier and the future...
 - Configuration data stored in text
     以文本形式储存配置数据。
  
-- Small， single-purpose program
+- Small， single-purpose program / AKA / Keep It Simple, Stupid!
     程序尽量朝向小而单一的目标设计
  
 - Avoid captive user interfaces
