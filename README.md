@@ -32,7 +32,8 @@ But I think working under linux is much happier and the future...
 10. 经济学,Yale的经济/金融公开课,open163,各种公开课平台等...Why do I get so many things to learn?
 11. 多上课,翻书,上Wiki,上知乎,上博客,github,stackoverflow,quora...感觉自己在退化啊~~~跟上时代,变与不变
 12. 大胆假设,小心求证.
-13. 陪任萌菇凉...
+13. 零散的时间就看零散知识/广阔视野眼界知识储备; 连续长时间就看专业深入的知识,推导...
+14. 陪任萌菇凉...
 
 
 ## Lifestyle Management
@@ -144,7 +145,7 @@ But I think working under linux is much happier and the future...
 
 ---
 #### Every Week
-- 2 small programs, small problems, Stay Sharp.
+- 2 small programs, small problems, Stay Sharp. Books(TAOCP, 算法导论, LeetCode And other online judge)
 
 ---
 #### Every day, Just Try To Finish It.
