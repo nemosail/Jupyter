@@ -125,9 +125,9 @@ But I think working under linux is much happier and the future...
 
 ## Weekday Arrangement...
     - Sunday:    Run QianDengLake
-    - Monday:    Work&Study | Miss Rong shall have some Physical Exercise
+    - Monday:    Work&Study 
     - Tuesday:   Work&Study
-    - Wednesday: Badminton
+    - Wednesday: Badminton      | Miss Rong shall have some Physical Exercise
     - Thursday:  work&Study
     - Friday:    Yoga&Badminton | Miss Rong
     - Saturday:  Lazy~~ or Study~~ or my AI&ML or Clean House/Room/Thyself
