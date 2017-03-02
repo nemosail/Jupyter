@@ -50,6 +50,7 @@ But I think working under linux is much happier and the future...
 11. Cost Sensitive, 代价敏感的,分类器,01,两类错误,混淆矩阵...[Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
 12. Keep thinking, learning, writing.
 13. Need to carefully observe and try and practise scientifically, slowly becomes better and better... 持之以恒
+14. 忽然想起有 邮件UG(user group) 这个东西,相当于一个兴趣组织起来的小圈子,偶尔会搞活动交流交流,可以去参加下这种交流会,认识下不同的人,交流想法~?
 
 
 ## Thoughts...
