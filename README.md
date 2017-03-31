@@ -154,10 +154,10 @@ But I think working under linux is much happier and the future...
 - 2 small programs, small problems, Stay Sharp. Books(TAOCP, 算法导论, LeetCode And other online judge)
 
 ---
-#### Every day, Just Try To Finish It.
-- 0.5h Banking & Economy & Finance
-- 0.5h CS & Trend
-- 0.5h News & Knowledge
+#### Every day, Just Try To Finish It. At Work Or At Home
+- 0.8h Banking & Economy & Finance & Different Way Of Thinking
+- 0.8h CS & Code & Algorithm & MachineLearning/AI & Trend
+- 0.4h News & Knowledge
 
 
 ## Unix Philosophy
