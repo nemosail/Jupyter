@@ -85,6 +85,7 @@ But I think working under linux is much happier and the future...
 3. TV shows... GoT, Westworld
 4. | 如何像射手影音一样自动下载字幕？如果知道一样事物如何工作，那就可以嘿嘿，使用python自动化，从R_rbg下载源文件,从SubHD下载对应字幕,然后～～
 5. agar.io/mope.io/wild.io...
+6. Reddit.com 蜂巢思维，个性和群体的冲突，陌生人兴趣导向的社交.
 
 ## What is?
 1. 什么是云？ 从 单机私有 到 联机私有？？
