@@ -18,6 +18,61 @@ Now I can write diaries at work and at dorm.
 Add On Win10 Git For Windows... It seems everything is ok. 
 But I think working under linux is much happier and the future...
 
+---
+## Weekday Arrangement...
+    - Sunday:    Run QianDengLake
+    - Monday:    Work&Study 
+    - Tuesday:   Work&Study
+    - Wednesday: Badminton      | Miss Rong shall have some Physical Exercise
+    - Thursday:  work&Study
+    - Friday:    Yoga&Badminton | Miss Rong
+    - Saturday:  Lazy~~ or Study~~ or my AI&ML or Clean House/Room/Thyself
+    
+- 做完瑜伽可以多做几组引体向上...会不会累成Dogs啊...
+- **身体是革命的本钱诶,不能落下健康的,监督自己去锻炼/运动,同时也要监督任菇凉去锻炼身体才行啦, Body is no.1 priority.**
+- Monday, Wednesday, Friday watch news(TV13 or TV2) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
+
+---
+## Every Year, Every Month, Every Week... Things To Be Done
+---
+#### Every Year 
+- At least 2 open clasee done.
+- At least 2 technology books.
+
+---
+#### Every Month
+- 1 simple book..
+
+---
+#### Every Week
+- 2 small programs, small problems, Stay Sharp. 
+- Books(TAOCP, 算法导论, LeetCode And other online judge, AI/ML, NLP, Trends, Economy, Banking, Finance)
+- At Least 2 serious physical exercise: Running OR BadMinton OR Pilates Yoga OR ExerciseAtDorm
+
+---
+#### Every day, Just Try To Finish It. At Work Or At Home
+- 0.8h Banking & Economy & Finance & Different Way Of Thinking
+- 0.8h CS & Code & Algorithm & MachineLearning/AI & Trend
+- 0.4h News & Knowledge
+- 0.25h Simple Exercise Tabata Feat Coach X3
+
+---
+## Unix Philosophy
+- Everything （including hardware） is a file
+    所有的事物（甚至硬件本身）都是一个的文件。
+
+- Configuration data stored in text
+    以文本形式储存配置数据。
+ 
+- Small， single-purpose program / AKA / Keep It Simple, Stupid!
+    程序尽量朝向小而单一的目标设计
+ 
+- Avoid captive user interfaces
+    尽量避免令人困惑的用户接口
+ 
+- Ability to chain program together to perform complex tasks
+    将几个程序连结起来，处理大而复杂的工作。
+
 ***
 ## Spare Time Management
 1. Books, 书(银行/编程/机器学习/Physics/远见，潮流); list=Jupyter/Books_List/Physics/Bill_Gates_Book
@@ -129,53 +184,3 @@ But I think working under linux is much happier and the future...
 7. guziguzi
 
 
-## Weekday Arrangement...
-    - Sunday:    Run QianDengLake
-    - Monday:    Work&Study 
-    - Tuesday:   Work&Study
-    - Wednesday: Badminton      | Miss Rong shall have some Physical Exercise
-    - Thursday:  work&Study
-    - Friday:    Yoga&Badminton | Miss Rong
-    - Saturday:  Lazy~~ or Study~~ or my AI&ML or Clean House/Room/Thyself
-    
-- 做完瑜伽可以多做几组引体向上...会不会累成Dogs啊...
-- **身体是革命的本钱诶,不能落下健康的,监督自己去锻炼/运动,同时也要监督任菇凉去锻炼身体才行啦, Body is no.1 priority.**
-- Monday, Wednesday, Friday watch news(TV13 or TV2) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
-
-
-## Every Year, Every Month, Every Week... Things To Be Done
----
-#### Every Year 
-- At least 2 open clasee done.
-- At least 2 technology books.
-
----
-#### Every Month
-- 1 simple book..
-
----
-#### Every Week
-- 2 small programs, small problems, Stay Sharp. Books(TAOCP, 算法导论, LeetCode And other online judge)
-
----
-#### Every day, Just Try To Finish It. At Work Or At Home
-- 0.8h Banking & Economy & Finance & Different Way Of Thinking
-- 0.8h CS & Code & Algorithm & MachineLearning/AI & Trend
-- 0.4h News & Knowledge
-
-
-## Unix Philosophy
-- Everything （including hardware） is a file
-    所有的事物（甚至硬件本身）都是一个的文件。
-
-- Configuration data stored in text
-    以文本形式储存配置数据。
- 
-- Small， single-purpose program / AKA / Keep It Simple, Stupid!
-    程序尽量朝向小而单一的目标设计
- 
-- Avoid captive user interfaces
-    尽量避免令人困惑的用户接口
- 
-- Ability to chain program together to perform complex tasks
-    将几个程序连结起来，处理大而复杂的工作。
