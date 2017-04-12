@@ -30,8 +30,8 @@ But I think working under linux is much happier and the future...
     - Friday:    Yoga&Badminton | Miss Rong
     - Saturday:  Lazy~~ or Study~~ or my AI&ML or Clean House/Room/Thyself
     
-- 做完瑜伽/普拉提可以多做几组引体向上...会不会累成Dogs啊...
-- **身体是革命的本钱诶,不能落下健康的,监督自己去锻炼/运动,同时也要监督任菇凉去锻炼身体才行啦, Body is no.1 priority.**
+- 做完瑜伽/普拉提可以多做几组引体向上...
+- **身体是革命的本钱诶,不能落下健康的,监督自己去锻炼/运动,同时也要监督任菇凉去锻炼身体才行啦, Body is no.1 priority. 投资自己，Invest Yourself, Spend Time & Money on yourself.**
 - Monday, Wednesday, Friday watch news(TV13 or TV2) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
 
 ---
