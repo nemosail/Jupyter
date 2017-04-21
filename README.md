@@ -111,6 +111,7 @@ But I think working under linux is much happier and the future...
 12. Keep thinking, learning, writing.
 13. Need to carefully observe and try and practise scientifically, slowly becomes better and better... 持之以恒
 14. 忽然想起有 邮件UG(user group) 这个东西,相当于一个兴趣组织起来的小圈子,偶尔会搞活动交流交流,可以去参加下这种交流会,认识下不同的人,交流想法~?
+15. ORACLE 培训心得: It depends, CS基础/算法/内功很重要; 解决问题要找到问题的根源，不能只看到表象; 了解你的工具，使用好你的工具.
 
 
 ## Thoughts...
