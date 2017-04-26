@@ -1,0 +1,17 @@
+alter table
+ customer
+add constraint
+ customer_pk
+primary key
+(
+ c_custkey
+)
+using index
+ customer_u1
+;
+alter table
+ customer
+modify constraint
+ customer_pk
+rely
+;

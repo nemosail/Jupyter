@@ -1,0 +1,14 @@
+Bridge 桥， 链接  理想 与 现实
+
+使用方法：
+- 充分利用产品的设计特性，设计者的思维
+- 使用数据来支持，逻辑去debug
+- Top Down 自定向下的 performance engineering
+
+Root Causes of Suboptimal Database Performance:
+Just Because You Can, Doesn't mean you should... 你可以row by row执行，但是不应该，应该使用更优的set based，你可以晚点睡，但是应该作息规律。。。
+
+作为数据库厂商，他们一般认为 实际情况下： 数据库问题不大，更多是APP应用算法，或者不正确使用数据库特性的问题。
+
+极端的情况下，优化1000X倍也是正常的，给自己定个更高的目标，别那么快就满足性能了，Do Better And Better，没有最好，只有更好。
+

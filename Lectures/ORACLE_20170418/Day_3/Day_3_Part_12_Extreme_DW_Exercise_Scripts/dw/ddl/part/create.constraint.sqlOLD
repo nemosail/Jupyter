@@ -1,0 +1,17 @@
+alter table
+ part
+add constraint
+ part_pk
+primary key
+(
+ p_partkey
+)
+using index
+ part_u1
+;
+alter table
+ part
+modify constraint
+ part_pk
+rely
+;

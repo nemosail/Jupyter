@@ -1,0 +1,24 @@
+insert /*+ APPEND */ into
+ CUSTOMER
+(
+ "C_CUSTKEY"
+,"C_NAME"
+,"C_ADDRESS"
+,"C_CITY"
+,"C_NATION"
+,"C_REGION"
+,"C_PHONE"
+,"C_MKTSEGMENT"
+)
+select
+ "C_CUSTKEY"
+,"C_NAME"
+,"C_ADDRESS"
+,RTRIM("C_CITY")
+,RTRIM("C_NATION")
+,RTRIM("C_REGION")
+,RTRIM("C_PHONE")
+,RTRIM("C_MKTSEGMENT")
+from
+ &src..CUSTOMER
+;

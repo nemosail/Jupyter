@@ -1,0 +1,567 @@
+更多的是定性分析，了解，知道，实际执行才能更准确更好量化。。。 Oracle厂商 和 它的用户们 交流，用户体验，产品改进，发现问题，解决问题，改进软件，经验分享
+
+computer science & engineering, basics... analysis problem, no silver bullet
+
+理论，科学，学习到了，还得去实际执行，体会，真正转化为自己理解，知识，跟机器学习也是一脉相承的，多参加会议，培训，经验、知识交流。
+
+不少经验值，建议值。
+
+数据支撑，数字分析，驱动，说话
+
+利用好软件的特性，了解你的工具，用好你的工具。
+
+what is log file sync...?
+
+硬解析，软解析，绑定变量。。。？？
+
+等待事件...wait event
+
+更高的吞吐量。 一次解释，多次执行， 长连接，短链接，连接池
+
+链接池，链接泄露，怎么办？ 连接池 会比 短连接好很多...
+
+PL/SQL 游标泄露？ 拼接的sql是不是 硬解析，还是软解析？
+
+执行计划？ share pool 存放是 解析好，能运行的sql的，错误的sql 不会放到 share pool 中。。。
+
+select 1 from table_name;
+
+select 1 from user_tables where name = table_name; 
+
+---
+## 数据库逻辑设计
+
+OLTP: 减少冗余，更新异常，增删改查会导致问题
+数据库设计范式...1nf 2nf 3nf
+是否使用外键问题， 他们在开发环境使用外键来检查应用数据是否符合规则，然后在生产环境不使用外键，担心外键带来的问题。。。
+
+主键，业务相关字段，sequence序列
+
+OLAP:  数据一般是单向增加，很少update等，星型模型，雪花模型
+
+ORM 模型， Abstract "Meta-Model"， object relationship， 这个操作对象来操作数据库，easy to model，可读性很好
+
+"Everything is a column" :  id, value_type, value; 
+
+Key Value, NoSQL, No only SQL... Redis, HBase
+
+High Performance Applications， 需要开发人员，应用人员开发代码质量问题。。。
+
+---
+###数据库物理设计
+
+索引设计，分区，压缩.. 
+
+索引：
+
+OLTP 使用索引是很合理的，经常都是查询少量数据，合适
+
+索引太多也会带来问题，更新维护索引 代价很大，索引找回小量的数据是很不错的，但是返回大量的行的时候 索引并不会带来性能提升。。
+
+OLAP 要合理使用索引，索引策略，数据量变大了，索引带来的代价也是很大的，
+
+Index Types, Btree Indexes | Bit Mapped Indexes | Storage Indexes
+
+分区：
+
+减少sql访问资源访问量，分区裁剪，清理归档。。
+
+RANGE Partition | HASH Partition | 
+范围分区，分区粒度，二级分区，人社，分库？？ 分区太细也有问题， 分区太大太小，如何才是合适，解释带来问题，空间利用率也可能变低..
+
+隐藏列？
+
+---
+#### 数据压缩
+网络传输量少，但是cpu运算量相对上来了
+
+---
+#### Cluster 簇表
+
+---
+#### Cache
+访问 磁盘 到达 ms
+访问 内存 到达 us
+访问 cache 到达 ns
+
+内存速度层次 和 价格层次。。。导致了策略
+
+TimesTen, Coherence, Client Side Cache...
+
+SQL Result Set Cache
+
+PL/SQL Function Cache
+
+Materialized Views
+
+---
+In Memory, 列式存储， Columnar Cache Format 处理大量数据访问. 更合适BI...
+
+---
+#### 应用程序的算法 1ms/row, 假设1ms能够处理一行，简单的线性增长已经人类已经很难接受这个时间复杂度了，没有多少个10years
+1 Thousand,  1sec
+1 million,   17mins
+1 Billion,   12days
+1 Trillion,  32years
+
+当数据量大量增长的时候，需要使用不同的策略来计算，时间...
+
+在不同的数据量，不同的情况下，适用不一样的执行策略。 
+
+充分适用数据库的特性，可能比自己手工并行编程 来得更加方便，更快。。。
+
+####　Data Processing:
+- Row by row;
+
+- Arrays; 能用 arrays 可以尝试适用，减少网络交换次数
+
+- Manual Parallelism;
+
+- Set Based Processing
+
+---
+Set based processing
+- process data in groups or sets of rows
+- use sql to define the result
+- ...
+
+#### 思路，分析问题先，通用的解决问题的方法，智能。。。
+
+先想在处理什么类型问题，OLTP 还是 OLAP, 然后找出对应合适的处理方法、方案
+
+处理大量数据适合使用 set base processing, much faster, but why much faster...
+
+multiple insert
+
+insert /*+ append */ select
+
+create table as select
+intersect
+minus
+exits
+not exists
+window functions
+multi-table inserts
+outer joins
+
+select 
+(
+case when 0 1
++         0 2
++         0 4
+)
+
+有点像linux的权限，== 0 表示正常，然后不同的值唯一对应不同的错误状态。。。
+
+parallel pipeline table function...
+
+---
+#### 数据库连接池, 最大连接数， 中间件（为什么要使用中间件，排队？） 
+OLTP   可扩展，高可用，高并发， 连接处的建议值是 cpu 核的 2-10
+
+architecture 架构师
+
+- 60-70% CPU 占用资源 属于比较健康
+- 小于10ms的log file sync 也是属于比较健康的 
+
+#### 应用发送错误的sql，然后数据库是串行分析解析sql语句的，每个应用都在排队等待解释sql，是这个系统的串行点，问题所在，需要解决他
+
+不断commit，小的commit，底层是穿行的，然后都要等 log write 完成？
+log write 成为了等待事件, log file sync, 
+
+process based architecture, ORACLE
+
+TPS 波动很大，
+
+连接池策略， 链接风暴，就是连接池有个 最大 最小，可以突然发起很多链接，然后process based 需要创建process，创建process，重，成本高，各种资源占用变高了，性能波动大。
+OLTP 连接池策略，控制连接池，链接风暴，有波动bug的时候，可能引发级联效应，雪崩效应。
+
+可以看看 cpu 占用问题，系统花了很多时间，说明系统准备进程基础等等花了不少资源，为什么，process based？
+
+系统平时表现可能很好，但是不是特别稳定，有波动，可以找找问题，看看到底是哪里出问题了。
+
+- 有效分配资源
+- 减少单次链接所占用资源
+- 减少资源冲突
+
+latch, mutex 保护共享的内存块...排队等待同一个资源，自旋，醒来后不断循环查看资源，会占用大量cpu资源...
+
+大量访问到同一个数据库对象，导致排队效应，高并发串行访问，自旋去访问内存，会占用大量cpu， sys cpu 管理进程，分配等等基础管理时间变化，
+进程很多的时候cpu cache命中率变低，需要搬内存，在内存速度的层次 来回搬动数据，on cpu了，统计还是计算到user上面去
+
+把运算负载均衡分布在各个部分中，均衡下，否则由于木桶效应可能会导致性能明显下降，数据库不是设计来排队的，把排队放到了中间件中去，要了解他们怎么工作，
+像领导一样分配都合适的人去干对应的事情，将相应的需求，计算分配到合适的机器、软件部件上。
+
+回到问题，给定这个资源下最大的运算量是否已经达到了，也就是系统已经在最优情况下满负载运行的，请求/更大业务量 可能是处理不过来了，需要增加资源？
+
+主键 sequence 自增，索引竞争，热块争用，反向索引，不支持范围查询,更长的时间尺度上，更大的空间上，反向索引开始表现不好了。
+hash分区，索引竞争，
+打散了原来 自增序列的热块竞争，自增序列的完全打散IO问题
+
+RAC 多一个节点， hash分区，哈希分区在多个节点情况下不好扩展，就像打乒乓球，
+
+sequence，序列，前缀，可扩展主键，The Scalable Key Code...手工主键自己的可扩展主键，为什么加了这个code会变好了?
+
+索引太大，大于>buffe cache...
+
+cursor，section object由于开发代码，没有正确捕捉异常处理好逻辑，导致没有正确关闭object，泄露链接，空着链接没有使用，导致连接数变大，只能等连接池自己回收非活动链接，
+频繁申请连接池里面链接，需要cpu运算 
+
+EM Oracle 监控软件？
+运维DBA，管理数据库，让他们正常健康运行，  
+开发DBA，
+
+同一个SQL 打开了过个cursor来执行，不太正常？ 同一个SQL应该使用同一个cursor来执行的，SQL一模一样执行了多次，可能是泄露游标了
+
+代码里面java里面代码导致问题，
+cursor 泄露， 还是section 泄露， cursor.close(), conn.close()， 有可能conn关闭了，cursor没有关；cursor关了，conn没有关。。。都没有关。。。 
+Work Around，刷新连接池，非活动链接的最大时间，尽快归还泄露的链接
+
+锁泄露？应用改了数据，没有提交，导致这些数据，行被锁了，其他要修改这些数据的被阻塞了，直接kill section，会带来逻辑问题。
+
+锁泄露一般在数据的某个表里面有记录的，在视图wait_chains看到全局的锁情况？
+
+使用连接池还是要注意很多东西。
+
+静态连接池，动态连接池
+
+AWR 诊断数据库，诊断性能，评估系统健康，风险等等
+学会看AWR，机器信息， 
+开始时间，解释时间， Sesions 连接数变多了， Cursors/Sesion 也变多了。。
+DB CPU 一分钟中占用时间， cpu占用率
+Rollbacks 
+猜测业务逻辑，代码逻辑，大胆猜测，细心求证
+数据库配置 init.ora Oracle的基本配置 下划线的一般是系统配置
+和oracle出厂配置不一样
+
+SQL注入，可能被拖库，盗用客户信息
+
+library cache共享池等待，数据库里面各种等待事件，可能是cpu资源用光了，串行锁，或者是因为不健康了，
+过载了，可能等待事件只是表象，根源可能在于其他地方，由于其他问题而导致了等待事件发生，就像医生诊病一样。
+
+sql分析， segments分析，行锁情况
+
+专家系统？expert on something，能够解决绝大多数问题。。。
+
+根据AWR来分析系统状态，估计下情况，潜在问题等等，ETL，负载报告 Batch  | more AWR, More analysis
+RAC AIX OLAP 可能不需要那么多sections 进程
+IO，锁等待？
+Logons 登录？OLAP 奇怪诶？
+有没有充分利用好机器的资源？
+人肉并行，切分数据，处理？
+AWR 看报告，找出特征，看row by row处理，导致性能很糟糕， OLAP用法跟OLTP不一样，应该使用SET BASED，设计系统
+的时候要清楚应用在那种情况，硬件已经足够好了，软件开发使用数据库的问题。
+从AWR收集到的统计信息，特征信息，反向推导代码情况
+
+#### SQL 优化
+SQL优化器原理，Black Art，基于成本
+- Schema Design
+- SQL Design
+- Execution Stategy
+- Optimization 
+
+99% 最优执行路径， 1%可能数据分布导致执行不好
+
+基于统计信息，计算路径的COST，COST的单位为IO时间。
+
+- Access method
+- join mechanism
+- join order
+- distribution method
+
+number of rows in the table
+existence of indexes
+...
+列，分区，不同维度的统计信息，分布信息，数据倾斜。
+
+执行计划，Execution Plan，根据SQL生产树状计划 TREE， 算法解决问题，
+Cardinality 数据的估算，估算会不准确？ 它的估算值怎么来得
+
+原生的包来看 execution plan，看看SQL解析执行计划，可以直接在命令行，不用IDE方式
+
+SQL Monitor Report， 真实值 和 估算值 的差别，20%的统计差别很正常，但是数量级的差别 10 100 等的时候，
+需要引起注意，为什么会有这么大的差别？
+
+命令直接生成HTML，标准，在浏览器就能很好用，很好看了。。。
+
+大表，小表， 小表 做 驱动表
+- Hash
+- nested loop
+- merge
+
+hash join 处理大量数据， build table， probe table
+
+join 优化，让优化器执行计划执行join
+
+---
+Serial & Paralle  串行/并行 执行
+Oracle 并行模型， 生产者、消费者  模型， 并行度4，产生 4 + 4 的进程了，
+
+Hash Join
+
+- 哈希分发，数据分布不均匀，数据倾斜
+- 广播分发,可以处理不均匀问题，数据量比较少，
+
+优化器可能估计失误，执行计划可能很糟糕
+
+incremental status || concurrent status 减少收集统计信息的时间
+
+===================================================================
+
+表上统计信息， 静态统计信息  VS  执行时候的 动态统计信息
+
+OLTP 一般不用动态信息，因为代价， OLAP可以动态采样，少量时间换来更好执行计划
+(串行点，更多的开发问题，并发问题，泄露问题)
+
+star schema, snow schema 星型模型，雪花模型
+
+Adaptive Plans,在SQL执行过程中，会适应，改进？
+
+SQL Monitor 报告？visible & invisible 给优化器看的
+
+Hint来告知优化器。。。
+
+统计信息，表层面统计信息，列的统计信息， extended statitus 扩展统计信息，相当于额外的先验知识 
+opt012
+
+Oracle EM, SQL Monitoring, SQL 监控，看SQL monitor report，
+可以看到 类似的 SQL 但是得到了不一样的执行计划，看执行计划就可以解释得到的差别
+ 
+隐式类型转换，带来没有用到了SQL索引 带来全表扫描。。
+
+统计信息不对，估计值和实际值有区别，看看表的统计信息，行统计信息，数据统计好就好了
+
+当估计器带来1行估计，可能是估计错了，看看应该怎样重新统计信息，join的时候 nested loop因此驱动表很重要，估计错了会得到很差的执行计划
+
+当估计错误，可以看看对应表的统计信息。 
+统计信息，多花点时间在统计信息上，可能得到了巨大的sql性能优化
+- 行数
+- histogram
+- 列相关信息，额外相关信息 (了解业务，先验知识来优化，相关性问题，简单NDV多少，组合NDV多少)
+
+估计错误了，est 和 act 估计和实际相差很多，数量级，看统计信息，主动重新default收集统计信息。Histogram
+
+执行计划没有变化，只是修改了并行度，使用更多的资源来平行运行，
+
+BF: Bloom Filter, 优化器正确选择执行路径，一般要保证统计信息是正确的，估计和实际没有太多区别，这样的时候就会得到很多优化特性。
+
+SQL优化，找出时间都去哪了，代价花在哪里，问题所在，找到更好的执行计划，而不是直接开启并行度（使用更多的资源来节省时间）
+时间都去哪，步骤，哪里估计错了，找到对应表的统计信息，表级别，分区级别，列级别统计信息 合适才行，得到正确的SQL执行计划。
+
+(Execute Home Work For SQL OPT,动手完成它，体验，参加课程，学习理论、知识，动手实践，成长)
+
+--- Exadata?
+不会有 孤儿数据，相当于网络里面的信息孤岛？
+
+#### OLAP 数据仓库 BI 常见误区  RAC 更适合DW，更好的扩展性，没有buffer cache内存的竞争，锁竞争
+ETL  占用 时间 资源
+报表 占用 时间 资源
+
+performance fundation: 知道as user需要做到的，具体的细节，实现，更多是厂商开发人员更加了解
+
+Datastage 图形化 导致 自动生成的代码效率不高 怎么办， 正确的ETL方式， row by row导致效果非常差
+
+索引问题（索引占用太多空间）
+
+并行执行，加载数据等等
+尽量利用好资源，并发之后可能是减少资源占用的。 并行度DoP多大？ Auto DoP
+并行执行的策略，翻翻手册，看看这次的PPT，
+
+并行进程 太多可能会导致系统过载，可以设置下控制会话等限制
+
+PX Workload with No Resource Management... 资源管理，调度，尽可能利用好系统资源的利用率，提高利用率，更优的方案，更好的用户体验，
+资源管理机制, Oracle Resource Manager 资源管理策略，更复杂，
+
+Parallel Execution Queueing 加入排队特性,可以开启这个参数特性，
+
+数据仓库dw 压缩比，混合列压缩， 普通 1:4, xdata 1:16 ?
+
+ETL 加载完数据，使用表之前一般都有统计信息的收集，oracle的收集统计信息策略。 统计信息，分析 min max null 等等，需要cpu资源
+
+统计信息收集，全量/增量 统计信息， 增量 incremental 
+
+/*+ append */   ==== SQL HINT，为什么要给hint给执行。。。？ 直接路径， 减少 redo undo ?
+
+什么是交换分区？ 先写入到临时表，然后把数据交换过去，DDL？
+
+外部表，源文件可以使压缩的，然后多个文件的时候可以并行加载。
+
+DW的完整流程... 1.建表 2.导入 3.收集统计信息 4.加工 5.查询 ...  串行时间，时间画出来，展示，用到
+ETL - ELT 现在先在load进来数据库，然后使用数据库的特性进行transform，数据库为中心，使用set base进行数据加载加工
+
+加载到 临时表， 把外键foreign key去掉，使用自己的sql，逻辑去处理这个数据的完整性，约束性，和OLTP不一样，策略不一样，
+大量数据下，使用foreigin key，插入数据可能到row by row检查，时间不可以接受，使用数据库的数据约束特性 代价太高了
+
+update少量数据是没有什么问题的，update大量数据才会有问题。
+update / delete 后果是 redo undo，杀掉它，等事物回滚很可怕， update delete merge 大量数据修改的时候，是很危险的， Data 
+work around是 复制到新的表，不在原来数据表上进行操作，操作到临时表中，不会有回滚的可怕了，使用 数据转换 代替 数据修改
+在原地修改数据是很可怕的，邪恶的，失败undo redo，回滚将会非常可怕的。
+
+ORACLE cache 缓存失败，分析，细节，依然是 computer science & engineering
+- 行式存储 （更适合OLTP）
+- 列式存储 （in memory，适合OLAP BI操作） 12c 查看下它的特性
+
+<The DataWarehouse Toolkit>
+
+- star schema 
+- snowflake schema
+
+事实表， large， 一般增长，
+
+维度表， small，static
+
+star queries 在星型模型上面的查询
+加速策略
+- get the row efficiency， 索引       Btree, Bitmap index, Star Transformation
+（取出少量数据的时候，还是挺快的）
+- filter out row we don't want, 过滤  full scan intelligent filtering, in-memory aggregation
+（取出大量数据的时候，filter更快了）
+
+star queries
+要快，需要 各种 算法、分区、统计 等等的基础
+
+I/O存储 30GB/s ?
+
+他们对数字，数量，速度，时间 单位好熟练，好敏感。。
+
+join elemination， 但是需要外键约束 foreign key constrain
+
+star transformation... 等价转换，join放到where那边，不用join来过滤，使用子查询的方式去过滤
+
+Intelligent Filtering: Exadata, In-Memory
+BloomFilter 做hash join的时候 之前把一些一定不符合条件的数据行过滤掉，减少不必要的计算量。
+
+left deep tree 左伸树
+right deep tree 右伸树
+
+early filtering 关键, 相当于把where条件尽可能放到底部的叶子节点，尽早扔掉不必要的数据，减少计算量
+
+vector transformation, key vector, using new tech?
+
+database in-memory Technique Technology
+
+Star Query Prescription 处方，
+基础 fundation 
+优化器选出了好的执行计划，由于 统计数据 schema 设计 等等基础
+
+- constrains : not null, primary key, foreign key 外键处理问题， 
+- data types : 隐式类型转换，导致用不了索引, 优化器执行计划的 副作用，类型不一样，类型有差别，avoid runtime data type conversion 
+- statistics : accurate and representative
+- partation  :
+
+外键约束，rely disable novalidate，不强制执行外键约束，但是告诉优化器 有外键约束，可以优化
+rely diable novalidate | query_rewrite_inteqrity 数仓中处理外键约束的
+
+better cardinality estimates
+better execution plans
+betters...
+
+snowflake schema
+物化视图？反范式设计，允许一定的数据冗余，提升性能。 将雪花模型化为星型模型， 性能才会更好
+
+如何看是驱动表? 错误的估计数据量 导致很慢， 数据类型不一致 导致很慢， 使用prescription处方，是的优化器尽可能使用各种优化特性，更快更好地完成执行计划
+
+www.oracle.com/goto/oll/rwp
+
+oracle.uao-online.com/video/rwp
+
+http://oracle.uao-online.com/video/rwp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

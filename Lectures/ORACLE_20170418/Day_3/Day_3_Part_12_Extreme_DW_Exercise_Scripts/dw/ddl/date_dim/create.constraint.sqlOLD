@@ -1,0 +1,17 @@
+alter table
+ date_dim
+add constraint
+ date_dim_pk
+primary key
+(
+ d_datekey
+)
+using index
+ date_dim_u1
+;
+alter table
+ date_dim
+modify constraint
+ date_dim_pk
+rely
+;

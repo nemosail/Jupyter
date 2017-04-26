@@ -1,0 +1,676 @@
+SQL> @create.index.sql
+SQL> define dop=16
+SQL> create bitmap index
+  2   lo_cust_b
+  3  on
+  4   lineorder
+  5  (
+  6   lo_custkey
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:18.24
+SQL> @xplan lo_cust_b
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.01
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 1228095174
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1716M| 21548   (1)| 00:00:01 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1716M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1716M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_CUST_B |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      BITMAP COMPACTION            |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   6 |       SORT CREATE INDEX           |           |   300M|  1716M|            |          |       |       |  Q1,00 | PCWP |            |
+|   7 |        BITMAP CONSTRUCTION        |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   8 |         TABLE ACCESS STORAGE FULL | LINEORDER |   300M|  1716M| 12065   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+20 rows selected.
+
+Elapsed: 00:00:00.02
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_cust_b')
+
+LEAF_BLOCKS
+-----------
+     192839
+
+Elapsed: 00:00:00.00
+SQL> create bitmap index
+  2   lo_date_b
+  3  on
+  4   lineorder
+  5  (
+  6   lo_orderdate
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:05.12
+SQL> @xplan lo_date_b
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.02
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 2925227486
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1716M| 11435   (1)| 00:00:01 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1716M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1716M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_DATE_B |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      BITMAP COMPACTION            |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   6 |       SORT CREATE INDEX           |           |   300M|  1716M|            |          |       |       |  Q1,00 | PCWP |            |
+|   7 |        BITMAP CONSTRUCTION        |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   8 |         TABLE ACCESS STORAGE FULL | LINEORDER |   300M|  1716M|  1952   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+20 rows selected.
+
+Elapsed: 00:00:00.02
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_date_b')
+
+LEAF_BLOCKS
+-----------
+      31219
+
+Elapsed: 00:00:00.00
+SQL> create bitmap index
+  2   lo_part_b
+  3  on
+  4   lineorder
+  5  (
+  6   lo_partkey
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:47.68
+SQL> @xplan lo_part_b
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.03
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 3544977143
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1430M| 28334   (1)| 00:00:02 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1430M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1430M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_PART_B |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      BITMAP COMPACTION            |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   6 |       SORT CREATE INDEX           |           |   300M|  1430M|            |          |       |       |  Q1,00 | PCWP |            |
+|   7 |        BITMAP CONSTRUCTION        |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   8 |         TABLE ACCESS STORAGE FULL | LINEORDER |   300M|  1430M| 18851   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+20 rows selected.
+
+Elapsed: 00:00:00.02
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_part_b')
+
+LEAF_BLOCKS
+-----------
+     387257
+
+Elapsed: 00:00:00.00
+SQL> create bitmap index
+  2   lo_supp_b
+  3  on
+  4   lineorder
+  5  (
+  6   lo_suppkey
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:16.96
+SQL> @xplan lo_supp_b
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.04
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 888729249
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1430M| 22504   (1)| 00:00:01 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1430M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1430M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_SUPP_B |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      BITMAP COMPACTION            |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   6 |       SORT CREATE INDEX           |           |   300M|  1430M|            |          |       |       |  Q1,00 | PCWP |            |
+|   7 |        BITMAP CONSTRUCTION        |           |       |       |            |          |       |       |  Q1,00 | PCWC |            |
+|   8 |         TABLE ACCESS STORAGE FULL | LINEORDER |   300M|  1430M| 13020   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+20 rows selected.
+
+Elapsed: 00:00:00.01
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_supp_b')
+
+LEAF_BLOCKS
+-----------
+     208252
+
+Elapsed: 00:00:00.00
+SQL> 
+SQL> 
+SQL> drop index lo_cust_b
+  2  ;
+
+Index dropped.
+
+Elapsed: 00:00:01.03
+SQL> drop index lo_date_b
+  2  ;
+
+Index dropped.
+
+Elapsed: 00:00:01.46
+SQL> drop index lo_part_b
+  2  ;
+
+Index dropped.
+
+Elapsed: 00:00:02.05
+SQL> drop index lo_supp_b
+  2  ;
+
+Index dropped.
+
+Elapsed: 00:00:01.50
+SQL> 
+SQL> create index
+  2   lo_cust_n
+  3  on
+  4   lineorder
+  5  (
+  6   lo_custkey
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:13.68
+SQL> @xplan lo_cust_n
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.01
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 3530691472
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1716M| 22398   (1)| 00:00:01 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1716M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1716M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_CUST_N |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      SORT CREATE INDEX            |           |   300M|  1716M|            |          |       |       |  Q1,00 | PCWP |            |
+|   6 |       INDEX STORAGE FAST FULL SCAN| LO_CUST_N |   300M|  1716M| 12915   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+18 rows selected.
+
+Elapsed: 00:00:00.02
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_cust_n')
+
+LEAF_BLOCKS
+-----------
+     682609
+
+Elapsed: 00:00:00.00
+SQL> create index
+  2   lo_date_n
+  3  on
+  4   lineorder
+  5  (
+  6   lo_orderdate
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:14.64
+SQL> @xplan lo_date_n
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.03
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 3341531427
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1716M| 22932   (1)| 00:00:01 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1716M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1716M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_DATE_N |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      SORT CREATE INDEX            |           |   300M|  1716M|            |          |       |       |  Q1,00 | PCWP |            |
+|   6 |       INDEX STORAGE FAST FULL SCAN| LO_DATE_N |   300M|  1716M| 13448   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+18 rows selected.
+
+Elapsed: 00:00:00.01
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_date_n')
+
+LEAF_BLOCKS
+-----------
+     710951
+
+Elapsed: 00:00:00.00
+SQL> create index
+  2   lo_part_n
+  3  on
+  4   lineorder
+  5  (
+  6   lo_partkey
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:17.40
+SQL> @xplan lo_part_n
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.04
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 2996230110
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1430M| 22127   (1)| 00:00:01 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1430M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1430M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_PART_N |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      SORT CREATE INDEX            |           |   300M|  1430M|            |          |       |       |  Q1,00 | PCWP |            |
+|   6 |       INDEX STORAGE FAST FULL SCAN| LO_PART_N |   300M|  1430M| 12643   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+18 rows selected.
+
+Elapsed: 00:00:00.01
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_part_n')
+
+LEAF_BLOCKS
+-----------
+     668181
+
+Elapsed: 00:00:00.00
+SQL> create index
+  2   lo_supp_n
+  3  on
+  4   lineorder
+  5  (
+  6   lo_suppkey
+  7  )
+  8  local
+  9  parallel &dop.
+ 10  ;
+old   9: parallel &dop.
+new   9: parallel 16
+
+Index created.
+
+Elapsed: 00:00:17.67
+SQL> @xplan lo_supp_n
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  10: parallel &dop.
+new  10: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.04
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 1458240030
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+--------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |           |   300M|  1430M| 22066   (1)| 00:00:01 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |           |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000  |   300M|  1430M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |           |   300M|  1430M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_SUPP_N |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      SORT CREATE INDEX            |           |   300M|  1430M|            |          |       |       |  Q1,00 | PCWP |            |
+|   6 |       INDEX STORAGE FAST FULL SCAN| LO_SUPP_N |   300M|  1430M| 12583   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+18 rows selected.
+
+Elapsed: 00:00:00.02
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_supp_n')
+
+LEAF_BLOCKS
+-----------
+     664974
+
+Elapsed: 00:00:00.00
+SQL> 
+SQL> create index
+  2   lo_date_part_n
+  3  on
+  4   lineorder
+  5  (
+  6   lo_orderdate
+  7  ,lo_partkey
+  8  )
+  9  local
+ 10  parallel &dop.
+ 11  ;
+old  10: parallel &dop.
+new  10: parallel 16
+
+Index created.
+
+Elapsed: 00:00:19.47
+SQL> @xplan lo_date_part_n
+SQL> 0 explain plan for
+SQL> .
+SQL> /
+old  11: parallel &dop.
+new  11: parallel 16
+
+Explained.
+
+Elapsed: 00:00:00.05
+SQL> select * from table(dbms_xplan.display)
+  2  ;
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 3468538624
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name           | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |    TQ  |IN-OUT| PQ Distrib |
+-------------------------------------------------------------------------------------------------------------------------------------------------
+|   0 | CREATE INDEX STATEMENT            |                |   300M|  3147M| 26862   (1)| 00:00:02 |       |       |        |      |            |
+|   1 |  PX COORDINATOR                   |                |       |       |            |          |       |       |        |      |            |
+|   2 |   PX SEND QC (RANDOM)             | :TQ10000       |   300M|  3147M|            |          |       |       |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX PARTITION RANGE ALL         |                |   300M|  3147M|            |          |     1 |1048575|  Q1,00 | PCWC |            |
+|   4 |     INDEX BUILD NON UNIQUE (LOCAL)| LO_DATE_PART_N |       |       |            |          |     1 |1048575|  Q1,00 | PCWP |            |
+|   5 |      SORT CREATE INDEX            |                |   300M|  3147M|            |          |       |       |  Q1,00 | PCWP |            |
+|   6 |       INDEX STORAGE FAST FULL SCAN| LO_DATE_PART_N |   300M|  3147M| 17378   (1)| 00:00:01 |     1 |1048575|  Q1,00 | PCWP |            |
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Note
+-----
+   - Degree of Parallelism is 16 because of table property
+   - estimated index size: 7180M bytes
+
+18 rows selected.
+
+Elapsed: 00:00:00.02
+SQL> select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+  2  ;
+old   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('&1.')
+new   1: select leaf_blocks from user_indexes where table_name = 'LINEORDER' and index_name = upper('lo_date_part_n')
+
+LEAF_BLOCKS
+-----------
+     919764
+
+Elapsed: 00:00:00.00
+SQL> 
+SQL> alter index lo_cust_b noparallel
+  2  ;
+alter index lo_cust_b noparallel
+*
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+Elapsed: 00:00:00.00
+SQL> alter index lo_date_b noparallel
+  2  ;
+alter index lo_date_b noparallel
+*
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+Elapsed: 00:00:00.00
+SQL> alter index lo_part_b noparallel
+  2  ;
+alter index lo_part_b noparallel
+*
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+Elapsed: 00:00:00.00
+SQL> alter index lo_supp_b noparallel
+  2  ;
+alter index lo_supp_b noparallel
+*
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+Elapsed: 00:00:00.00
+SQL> 
+SQL> alter index lo_cust_n noparallel
+  2  ;
+
+Index altered.
+
+Elapsed: 00:00:00.01
+SQL> alter index lo_date_n noparallel
+  2  ;
+
+Index altered.
+
+Elapsed: 00:00:00.01
+SQL> alter index lo_part_n noparallel
+  2  ;
+
+Index altered.
+
+Elapsed: 00:00:00.01
+SQL> alter index lo_supp_n noparallel
+  2  ;
+
+Index altered.
+
+Elapsed: 00:00:00.00
+SQL> 
+SQL> alter index lo_date_part_n noparallel
+  2  ;
+
+Index altered.
+
+Elapsed: 00:00:00.01
+SQL> spool off

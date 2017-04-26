@@ -1,0 +1,17 @@
+alter table
+ supplier
+add constraint
+ supplier_pk
+primary key
+(
+ s_suppkey
+)
+using index
+ supplier_u1
+;
+alter table
+ supplier
+modify constraint
+ supplier_pk
+rely
+;
