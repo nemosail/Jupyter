@@ -23,9 +23,9 @@ But I think working under linux is much happier and the future...
 ---
 ## Weekday Arrangement...
     - Sunday:    Run QianDengLake
-    - Monday:    Work&Study/Tabata
+    - Monday:    Work&Study/Tabata | 4mins X 3~4 
     - Tuesday:   Work&Study
-    - Wednesday: Badminton/Tabata  | Miss Rong shall have some Physical Exercise
+    - Wednesday: Badminton/Tabata  | 4mins X 3~4 | Miss Rong shall have some Physical Exercise
     - Thursday:  work&Study
     - Friday:    Yoga&Badminton    | Miss Rong Pilates 柔韧
     - Saturday:  Lazy~~ or Study~~ or my AI&ML or Clean House/Room/Thyself
