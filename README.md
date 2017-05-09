@@ -20,6 +20,11 @@ Now I can write diaries at work and at dorm.
 Add On Win10 Git For Windows... It seems everything is ok. 
 But I think working under linux is much happier and the future...
 
+***
+#### 培训，学习，交流 Fetch/Write
+- PPT, PDF，文档等等 (如果允许就扔在网上共享把,IOT)
+- 纸质日记，电子化日记 (公有/私有，注意信息安全)
+
 ---
 ## Weekday Arrangement...
     - Sunday:    Run QianDengLake
