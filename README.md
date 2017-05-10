@@ -42,8 +42,8 @@ But I think working under linux is much happier and the future...
 ---
 ## Every Year, Every Month, Every Week... Things To Be Done
 
-#### Every Year 
-- At least 2 open clasee done.
+#### Every Year 学习，增值，投资自身.  紧跟时代步伐，使用新的工具，新的思维.
+- At least 2 open clasee done. 
 - At least 2 technology books.
 
 ---
