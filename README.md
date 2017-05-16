@@ -100,6 +100,7 @@ But I think working under linux is much happier and the future...
 16. **线上，线下的活动都去参加下，多认识人，多了解事物，开阔眼界，格局，潮流，CS也好，经济，金融也好,Just do it, Just Say Yes.**
 17. STEM, Science, Technology, Engineering, Mathmatics; STEM softwares is becoming more and more popular...Play & Learn & Think.
 18. 蓉菇凉要注意身体啊，按时吃饭，作息要规律，锻炼她，有策略，有方法地把她的身体素质练上来。。。花点时间精力，找出更优的解/状态。
+19. Designing Things. Building things. Like modern cpus, computers, big plane, tanks, buildings, submarine, aircraft carrier... build physical system you seen every day... STEM softwares...
 
 ## Lifestyle Management
 1. Take care of you teeth... Clean & Wash on time.
