@@ -101,6 +101,7 @@ But I think working under linux is much happier and the future...
 17. STEM, Science, Technology, Engineering, Mathmatics; STEM softwares is becoming more and more popular...Play & Learn & Think.
 18. 蓉菇凉要注意身体啊，按时吃饭，作息要规律，锻炼她，有策略，有方法地把她的身体素质练上来。。。花点时间精力，找出更优的解/状态。
 19. Designing Things. Building things. Like modern cpus, computers, big plane, tanks, buildings, submarine, aircraft carrier... build physical system you seen every day... STEM softwares...
+20. ML/AI Learning, Math Examples.使用实际例子来介绍, e.g. kernal funciton: $<f(x_1),f(x_2)>=k(x_1,x_2)$
 
 ## Lifestyle Management
 1. Take care of you teeth... Clean & Wash on time.
