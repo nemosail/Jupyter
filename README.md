@@ -147,6 +147,7 @@ But I think working under linux is much happier and the future...
 20. 通过SCUT的渠道,或者网上的神奇渠道(GOOGLE),应该能够下载到许多论文的...
 21. **区块链技术, 电子化货币, 电子化应用** Learn something,会是另外一个风口,一个方向吗?
 22. 接触，了解，尝试 **开源硬件**
+23. 《纪念碑谷 1 && 2》数学 平面几何 立体几何
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
