@@ -146,6 +146,7 @@ But I think working under linux is much happier and the future...
 19. 直接使用代码Python/Matlab/Octave/R/Haskell做有趣的项目,AI/ML/DL,或者做有趣的挖掘,漂亮的报表/博客.
 20. 通过SCUT的渠道,或者网上的神奇渠道(GOOGLE),应该能够下载到许多论文的...
 21. **区块链技术, 电子化货币, 电子化应用** Learn something,会是另外一个风口,一个方向吗?
+22. 接触，了解，尝试 **开源硬件**
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
