@@ -197,5 +197,6 @@ But I think working under linux is much happier and the future...
 5. Where are you going...
 6. 她喜欢喝喜茶？ What am I supposed to do?
 7. guziguzi
+8. 阅后即瞎--好搞笑。。。有空带个小GoPro去履行，做Vlog视频也是很好的。。。
 
 
