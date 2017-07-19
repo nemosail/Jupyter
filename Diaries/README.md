@@ -11,6 +11,20 @@
 
 **做人要有追求，不然跟咸鱼有啥区别**
 
-**Any way, have fun!**
+**Any way, have fun! Lift is short, do lots of things just for fun? Laugh in the face of danger...** Linus 的语录还是很又哲理的... 理工科思维 VS 文科思维？
+
+---
+## Time Management.... 
+自我观察，As a third party，看看可以如何利用，自己的零碎的时间，连续的时间，做一定的安排/规划
+
+就像一个好的规划软件/日历
+- 每天，每天的时间分布情况，利用情况，可以做小事情，或者中长期规划的小步骤
+- 每周，一周中每天的安排，如何合理，多样性
+- 每月，月级别的就相对长的规划，可以做些大事情
+- 每年, 这个级别就设计中长规划了，Big Things...
+- 每5年，What will happen in the next five years?
+- 每10年, 2X5 Years, Lots of things can happen, just try/guest/predict it...
+
+---
 
 其中 **####** 表示的是当天又疑问，但是没有马上解决而又需要解决的问题。
