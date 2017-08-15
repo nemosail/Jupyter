@@ -182,6 +182,9 @@ But I think working under linux is much happier and the future...
 7. Pending: Get MachineLearningBooks
 8. Pending: **Miss Ren likes to listen to my keyboard typing sound! Can be a birthday present. She is so cute...201708**
 9. Pending: Find some beautiful person pictures, learn from them. Let's take some nice pics. 学着去拍漂亮的人像...Take more pictures when we are young...
+10. Python...Web Developing 网页开发，前端，后端，全栈
+11. Deep Learning, Machine Learning 深度学习，书，课程
+12. 经济学，金融学，课程
 
 
 ## Improve Life Living Quarity
