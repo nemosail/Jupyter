@@ -111,6 +111,7 @@ But I think working under linux is much happier and the future...
 20. ML/AI Learning, Math Examples.使用实际例子来介绍, e.g. kernal funciton: $<f(x_1),f(x_2)>=k(x_1,x_2)$
 21. Deep Learning, Reinforcement Learning...
 22. 物联网，大数据Programming,智能设备AI,自动驾驶，基础设施，面向巨大的市场...Think about it.
+23. 学习微信小程序，如何开发自己的HelloWorld，如何把各种奇怪灵活的想法实现？ 运筹，不妥协，优化，效率，灵活。。。
 
 ## Lifestyle Management
 1. Take care of you teeth... Clean & Wash on time.
