@@ -27,13 +27,13 @@ But I think working under linux is much happier and the future...
 
 ---
 ## Weekday Arrangement...
-    - Sunday:    Run QianDengLake
-    - Monday:    Work&Study/Tabata | 4mins X 3~4 
-    - Tuesday:   Work&Study
+    - Sunday:    Run QianDengLake  | 
+    - Monday:    Work&Study/Tabata 
+    - Tuesday:   Work&Study        | 4mins X 3~4 
     - Wednesday: Badminton/Tabata  | 4mins X 3~4 | Miss Rong shall have some Physical Exercise
     - Thursday:  work&Study
     - Friday:    Yoga&Badminton    | Miss Rong Pilates 柔韧
-    - Saturday:  Lazy~~ or Study~~ or my AI&ML or Clean House/Room/Thyself
+    - Saturday:  ( Learn And Do Something ) or my AI&ML or Economy or Finance or Clean House/Room/Thyself
     
 - 做完瑜伽/普拉提可以多做几组引体向上...
 - **身体是革命的本钱诶,不能落下健康的,监督自己去锻炼/运动,同时也要监督任菇凉去锻炼身体才行啦, Body is no.1 priority. 投资自己，Invest Yourself, Spend Time & Money on yourself.**
