@@ -157,6 +157,7 @@ But I think working under linux is much happier and the future...
 21. **区块链技术, 电子化货币, 电子化应用** Learn something,会是另外一个风口,一个方向吗?
 22. 接触，了解，尝试 **开源硬件** PCB，电路逻辑设计？
 23. 《纪念碑谷 1 && 2》数学 平面几何 立体几何
+24. SimScale 模拟器 Simulater，提供真实物理引擎，也就是 在虚拟世界 做 真实的实验，在平行的时空做真实实验，因为虚拟成本低，真实成本高.
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
