@@ -14,7 +14,7 @@
 6. Ideas, Because notebooks in Diaries is to spread, this focus on topics.
 
 ***
-Now I can write diaries at work and at dorm. 
+Now I can write diaries everywhere...cloud...云的概念...中心化 VS 分布式...
 使用git来实现类似共享的效果很好，相当于自己的个人配置云，重装之后git pull一下，环境就差不错了，虽然与docker没得比较.
 
 Add On Win10 Git For Windows... It seems everything is ok. 
@@ -42,18 +42,33 @@ But I think working under linux is much happier and the future...
 ---
 ## Every Year, Every Month, Every Week... Things To Be Done
 
+### Every Day
+
+### Every Week
+
+### Every Month
+
+### Every Querter
+
+### Every Year
+
+### Every 5 years
+
+### Every 10 years
+
+### Every 15 years
+
 - Programming, 编程, Computer Science, Computer Engineering, Algorithm, ACM, Coding... Software... PCB Hardware?
 - Mathmatics, 数学，Probrability, Matrix, Linear Algrabra, Gaming Theory
 - Economy, Finance, 经济，金融, Investment ?
 - Machine Learning, Artificial Intelligence, Deep Learning, Reinforcement Learning ?
 
-#### Every Year 学习，增值，投资自身.  紧跟时代步伐，使用新的工具，新的思维.
-- At least 2 open clasee done. 
-- At least 2 technology books.
-
 ---
-#### Every Month
-- 1 simple book..
+#### Every day, Just Try To Finish It. At Work Or At Home
+- 0.8h Banking & Economy & Finance & Different Way Of Thinking
+- 0.8h CS & Code & Algorithm & MachineLearning/AI & Trend
+- 0.4h News & Knowledge
+- 0.25h Simple Exercise Tabata Feat Coach X3
 
 ---
 #### Every Week
@@ -64,11 +79,13 @@ But I think working under linux is much happier and the future...
 - Sunday 星期天，和 Miss Ren hang out... Walking around can be good too...
 
 ---
-#### Every day, Just Try To Finish It. At Work Or At Home
-- 0.8h Banking & Economy & Finance & Different Way Of Thinking
-- 0.8h CS & Code & Algorithm & MachineLearning/AI & Trend
-- 0.4h News & Knowledge
-- 0.25h Simple Exercise Tabata Feat Coach X3
+#### Every Month
+- 1 simple book.
+
+---
+#### Every Year 学习，增值，投资自身.  紧跟时代步伐，使用新的工具，新的思维.
+- At least 2 open courses done. 
+- At least 2 technology books.
 
 ---
 ## Unix Philosophy
@@ -211,6 +228,4 @@ But I think working under linux is much happier and the future...
 5. Where are you going...
 6. 她喜欢喝喜茶？ What am I supposed to do?
 7. guziguzi
-8. 阅后即瞎--好搞笑。。。有空带个小GoPro去履行，做Vlog视频也是很好的。。。
-
-
+8. 阅后即瞎--好搞笑。。。有空带个小GoPro去旅行，做Vlog视频也是很好的。。。
