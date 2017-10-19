@@ -112,10 +112,11 @@ But I think working under linux is much happier and the future...
 21. Deep Learning, Reinforcement Learning...
 22. 物联网，大数据Programming,智能设备AI,自动驾驶，基础设施，面向巨大的市场...Think about it.
 23. 学习微信小程序，如何开发自己的HelloWorld，如何把各种奇怪灵活的想法实现？ 运筹，不妥协，优化，效率，灵活。。。
+24. 编程思维,编程网站LeetCode,DeepLearning...AI平台
 
 ## Lifestyle Management
 1. Take care of you teeth... Clean & Wash on time.
-2. Body exercise...flexibality...Run...宿舍锻炼腹肌/拉伸/柔韧/120深蹲
+2. Body exercise...flexibality...Run...宿舍锻炼腹肌/拉伸/柔韧/120深蹲/瑜伽放松拉伸脖子肩膀
 3. Sit & Think & Read [like Steve Jobs](http://36kr.com/p/5053048.html)
 4. I used to be afraid of thoes unknown and I still am. Don't be afraid, we all have to face it someday somehow.
 5. Stay hungry, Stay Young, Stay Foolish. Say Yes To Us. Say No To Them.
