@@ -27,7 +27,7 @@ But I think working under linux is much happier and the future...
 
 ---
 ## Weekday Arrangement...
-    - Sunday:    Run QianDengLake  | 
+    - Sunday:    Run QianDengLake  | 跟着Bilibili热门Up主学说话吹水~
     - Monday:    Work&Study/Tabata 
     - Tuesday:   Work&Study        | 4mins X 3~4 | 30 PUSH-UP Keep Doing It
     - Wednesday: Badminton/Tabata  | 4mins X 3~4 | Miss Rong shall have some Physical Exercise
