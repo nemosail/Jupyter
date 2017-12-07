@@ -176,7 +176,7 @@ But I think working under linux is much happier and the future...
 22. 接触，了解，尝试 **开源硬件** PCB，电路逻辑设计？
 23. 《纪念碑谷 1 && 2》数学 平面几何 立体几何
 24. SimScale 模拟器 Simulater，提供真实物理引擎，也就是 在虚拟世界 做 真实的实验，在平行的时空做真实实验，因为虚拟成本低，真实成本高.
-23. IoT, IPV6, 物联网, 人工只能，大数据
+23. IoT, IPV6, 物联网, 人工只能，大数据, What can you do with it?
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
