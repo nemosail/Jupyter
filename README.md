@@ -24,7 +24,7 @@ But I think working under linux is much happier and the future...
 
 ***
 #### 培训，学习，交流 Fetch/Write
-- PPT, PDF，文档等等 (如果允许就扔在网上共享把,IOT)
+- PPT, PDF，文档等等 (如果允许就扔在网上共享把,IoT)
 - 纸质日记，电子化日记 (公有/私有，注意信息安全)
 
 ---
@@ -40,6 +40,7 @@ But I think working under linux is much happier and the future...
 - 做完瑜伽/普拉提可以多做几组引体向上...
 - **身体是革命的本钱诶,不能落下健康的,监督自己去锻炼/运动,同时也要监督任菇凉去锻炼身体才行啦, Body is no.1 priority. 投资自己，Invest Yourself, Spend Time & Money on yourself.**
 - Monday, Wednesday, Friday watch news(TV13 or TV2) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
+- **去游泳啊，释放压力，对身体好～**
 
 ---
 ## Every Year, Every Month, Every Week... Things To Be Done
@@ -88,6 +89,7 @@ But I think working under linux is much happier and the future...
 #### Every Year 学习，增值，投资自身.  紧跟时代步伐，使用新的工具，新的思维.
 - At least 2 open courses done. 
 - At least 2 technology books.
+- At least 2 economy/finance books.
 
 ---
 ## Unix Philosophy
@@ -132,6 +134,9 @@ But I think working under linux is much happier and the future...
 22. 物联网，大数据Programming,智能设备AI,自动驾驶，基础设施，面向巨大的市场...Think about it.
 23. 学习微信小程序，如何开发自己的HelloWorld，如何把各种奇怪灵活的想法实现？ 运筹，不妥协，优化，效率，灵活。。。
 24. 编程思维,编程网站LeetCode,DeepLearning...AI平台
+25. Coin Mining, GPU Mining, HardDrive Mining, FPGA, ASIC Mining...
+26. IPFS...InterPlaneteryFileSystem...GFS, HDFS...各种FS好厉害的，基础建筑，底层， 存储 + 计算...
+
 
 ## Lifestyle Management
 0. Laugh In The Face Of Danger...不用害怕，没什么好害怕的，事在人为，只要思想不滑坡，方法总比问题多。。。能解决的。
