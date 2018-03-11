@@ -46,8 +46,12 @@ But I think working under linux is much happier and the future...
 ## Every Year, Every Month, Every Week... Things To Be Done
 
 ### Every Day
+At Noon: Finance, Economy 1 Hour
+After Work: Coding, Leetcode, OJ; Machine Learning, Deep Learning; Read Books
 
 ### Every Week
+Saturday: Study, Read Books, Walk Around
+Sunday: Walk Around see the world, see things
 
 ### Every Month
 
