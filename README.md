@@ -191,6 +191,7 @@ Sunday: Walk Around see the world, see things
 23. 《纪念碑谷 1 && 2》数学 平面几何 立体几何
 24. SimScale 模拟器 Simulater，提供真实物理引擎，也就是 在虚拟世界 做 真实的实验，在平行的时空做真实实验，因为虚拟成本低，真实成本高.
 23. IoT, IPV6, 物联网, 人工只能，大数据, What can you do with it?
+24. 做做题目Leetcode,笔试面试题目,智力题目,坚持锻炼思维,思考方式,不然生锈啦...
 
 ## Entertainment
 1. Games... Kerbals' Space Program / MineCraft / Don't Starve / Besiege
