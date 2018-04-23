@@ -27,6 +27,10 @@ But I think working under linux is much happier and the future...
 - PPT, PDF，文档等等 (如果允许就扔在网上共享把,IoT)
 - 纸质日记，电子化日记 (公有/私有，注意信息安全)
 
+#### 短期目标, 长期规划, 多线执行, (人无远虑,必有近忧)
+1. 技术路线, Computer Science, Programming, Machine Learning, DeepLearning, Math, Optimization, 离散整数规划/优化,连续函数优化
+2. 经济金融路线(宏观,微观), Economy, Finance, 银行,证券,投资,分析...
+
 ---
 ## Weekday Arrangement...
     - Sunday:    Run QianDengLake  | 跟着Bilibili热门Up主学说话吹水~
