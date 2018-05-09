@@ -228,6 +228,9 @@ Sunday: Walk Around see the world, see things
 10. Python...Web Developing 网页开发，前端，后端，全栈
 11. Deep Learning, Machine Learning 深度学习，书，课程
 12. 经济学，金融学，课程
+13. 了解更大的世界,更广博的知识,更深入精致的专业...
+14. 圈子,程序员的圈子在讨论什么,Trend是什么,了解某个方向的过去,现在,更重要的将来...经济/金融的圈子...半导体IC的圈子等等...区块链的圈子等等...
+15. 多去看看,多去问问...
 
 
 ## Improve Life Living Quarity
@@ -247,6 +250,7 @@ Sunday: Walk Around see the world, see things
 3. 火龙果
 4. Miss Ren likes 榴莲。。。?
 5. Where are you going...
-6. 她喜欢喝喜茶？ What am I supposed to do?
+6. 她喜欢喝喜茶？ What am I supposed to do? Control It... Becareful of eating, like an AI keep track of someone 记录/监控/有计划控制自己
 7. guziguzi
 8. 阅后即瞎--好搞笑。。。有空带个小GoPro去旅行，做Vlog视频也是很好的。。。
+9. 每天记录,自己的想法,环境的情况,以后回头一看...就会发现很有去的规律,数据说话,数据驱动啊,思考如何做到更好,做到最好...
