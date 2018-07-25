@@ -45,6 +45,8 @@ But I think working under linux is much happier and the future...
 - **身体是革命的本钱诶,不能落下健康的,监督自己去锻炼/运动,同时也要监督任菇凉去锻炼身体才行啦, Body is no.1 priority. 投资自己，Invest Yourself, Spend Time & Money on yourself.**
 - Monday, Wednesday, Friday watch news(TV13 or TV2) or read news/tech articles >= 30mins... Stay young, Stay Hungry, Meditation.
 - **去游泳啊，释放压力，对身体好～**
+- **每天坚持看书，看文章，写日记**
+- **每周坚持锻炼，跑步，普拉提，瑜伽，游泳** 多样性~
 
 ---
 ## Every Year, Every Month, Every Week... Things To Be Done
