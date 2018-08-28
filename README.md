@@ -32,7 +32,7 @@ But I think working under linux is much happier and the future...
 2. 经济金融路线(宏观,微观), Economy, Finance, 银行,证券,投资,分析...
 
 ---
-## Weekday Arrangement... Need To Swim 坚持游泳啊
+## Weekday Arrangement... Need To Swim 坚持游泳啊... 多吃百香果 && Run && 运动
     - Sunday:    Run QianDengLake  | 跟着Bilibili热门Up主学说话吹水~
     - Monday:    Work&Study/Tabata 
     - Tuesday:   Work&Study        | 4mins X 3~4 | 30 PUSH-UP Keep Doing It
