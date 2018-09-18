@@ -82,6 +82,9 @@ Sunday: Walk Around see the world, see things
 - 0.8h CS & Code & Algorithm & MachineLearning/AI & Trend
 - 0.4h News & Knowledge
 - 0.25h Simple Exercise Tabata Feat Coach X3
+- 金融工程，量化金融
+- 经济学，行为经济学
+- Computer Science, Data Science, MachineLearning, DeepLearning, TransferLearning... 趋势
 
 ---
 #### Every Week
