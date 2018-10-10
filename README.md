@@ -54,6 +54,9 @@ But I think working under linux is much happier and the future...
 ### Every Day
 At Noon: Finance, Economy 1 Hour
 After Work: Coding, Leetcode, OJ; Machine Learning, Deep Learning; Read Books
+学习公开课，经济、金融、投资方面的知识；
+学习CS，Math，ML,AI 等STEM课程；
+动手实践，写代码，参加比赛，做题目！
 
 ### Every Week
 Saturday: Study, Read Books, Walk Around
