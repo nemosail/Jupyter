@@ -126,6 +126,7 @@ Sunday: Walk Around see the world, see things
 
 ***
 ## Spare Time Management
+0. 关注身体、生活的细节，Sleep Enough & Well，eat healthy, physical exercise...
 1. Books, 书(银行/编程/机器学习/Physics/远见，潮流); list=Jupyter/Books_List/Physics/Bill_Gates_Book
 2. Coding, 编程，思考，基础，本源，本质; list=GitHub/Kaggle/Python/R/Haskell/Matlab/C++/Algorithm/ML,AI/LeetCode/hackerrank/OS
 3. Cars/Industry, 汽车，3D打印，工业，物联网; list=知乎Topic/公开课
