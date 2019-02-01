@@ -158,6 +158,10 @@ Sunday: Walk Around see the world, see things
 29. 经济课程，金融课程，PPT，书籍 | 技术的，容器技术，Docker，新思想，新做法，解决现有人力浪费问题，机器学习，人工智能 |业务上的，关于投资方面的
 30. <追风筝的人>
 31. 跟上小程序的风口，如何使用小程序对外提供服务？
+32. 公众号、知乎、等等写作文章的平台
+33. 自动化、智能化的机器人，robots，to c，to b，to g的机器人设计，落地使用；
+34. teach computer、machine to play， learn， grow with the environment... 增强学习的应用，在各个行业，grow the pie.
+
 
 
 ## Lifestyle Management
