@@ -27,9 +27,9 @@ But I think working under linux is much happier and the future...
 - PPT, PDF，文档等等 (如果允许就扔在网上共享把,IoT)
 - 纸质日记，电子化日记 (公有/私有，注意信息安全)
 
-#### 短期目标, 长期规划, 多线执行, (人无远虑,必有近忧)
+#### 短期目标, 中期计划，长期规划, 多线执行, (人无远虑,必有近忧)
 1. 技术路线, Computer Science, Programming, Machine Learning, DeepLearning, Math, Optimization, 离散整数规划/优化,连续函数优化
-2. 经济金融路线(宏观,微观), Economy, Finance, 银行,证券,投资,分析...
+2. 经济金融路线(宏观,微观), Economy, Finance, 银行,证券,投资,分析... CFA? 
 
 ---
 ## Weekday Arrangement... Need To Swim 坚持游泳啊... 多吃百香果 && Run && 运动
@@ -162,7 +162,8 @@ Sunday: Walk Around see the world, see things
 32. 公众号、知乎、等等写作文章的平台
 33. 自动化、智能化的机器人，robots，to c，to b，to g的机器人设计，落地使用；
 34. teach computer、machine to play， learn， grow with the environment... 增强学习的应用，在各个行业，grow the pie.
-
+35. Invest 投资，学习投资的理念和知识... CFA，看书看书看书!
+36. 抛弃坏习惯，短期让你满足的，都是毒药啊，长期坚持的才会真正的成长...
 
 
 ## Lifestyle Management
