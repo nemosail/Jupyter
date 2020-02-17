@@ -35,3 +35,8 @@
 ---
 
 其中 **####** 表示的是当天又疑问，但是没有马上解决而又需要解决的问题。
+
+---
+## Good Tools
+> 小巧，方便，2-3米的皮尺，量物体长宽高，网购神器
+> 全平台的 Kodi， windows/linux/andrioid... + iptv 流播放的神器... Things will change overtime, what is the inner unchange part?

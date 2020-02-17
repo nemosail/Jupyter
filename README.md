@@ -100,6 +100,7 @@ Sunday: Walk Around see the world, see things
 - At Least 2 serious physical exercise: Running OR BadMinton OR Pilates Yoga OR ExerciseAtDorm
 - Saturday 星期六, 09:00 ~ 20:00 回公司，学习，环境，计算机，数学，经济，金融，银行会计，Books, Just Read Something Different...
 - Sunday 星期天，和 Miss Ren hang out... Walking around can be good too...
+- Run, Physical Exercise... 在家运动，相关器材，垫子，跑步机，划水机？？？ 对内提升自身抵抗能力，对外预防细菌病毒
 
 ---
 #### Every Month
