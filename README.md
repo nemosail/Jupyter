@@ -15,6 +15,7 @@
 5. Travelling, journey, tuor...
 6. Ideas, Because notebooks in Diaries is to spread, this focus on topics.
 
+> **IMPORTANT: 和RJR锻炼身体（每周），注意饮食习惯营养均衡（每周）**
 
 ***
 Now I can write diaries everywhere...cloud...云的概念...中心化 VS 分布式...
