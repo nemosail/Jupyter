@@ -260,7 +260,7 @@ Sunday: Walk Around see the world, see things
 17. Computer Science & Technology AND Economy， 技术 和 业务 双修啊...
 
 
-## Improve Life Living Quarity
+## Improve Life Living Quarity Plan
 0. Ask ZhiHu && Think yourself, stay hungry, stay young... Always have heart&ledder, see the whole world/internet.
 1. 宿舍暖光灯
 2. 小的电暖气
@@ -269,6 +269,7 @@ Sunday: Walk Around see the world, see things
 5. 羽毛球拍该拉线了，咱们业余的应该用那一种？ BG65/BG65Ti，多少磅，羽毛球的70内的就 泰来+？？; RSL亚狮龙？ 找找相关资料把-> Ideas
 6. 办公室久坐应该怎样注意身体，锻炼身体，程序员的通病。。。
 7. **养生，Live Better**,蓉妹子又胃痛了，要看看，已经是有几次都胃痛了，**养好胃好重要，要靠有意识地去养好** 要注意定时吃饭，注意控制饮食，少吃刺激性食物，早晚喝一杯热水。。。 也要教育好自己，教育好下一代，不能体弱多病，强壮的身体与灵魂，需要 锻炼和控制， 粗犷一点的成长，精细一点的教育。将一些思想，生活方式，想法自然而然地融入生活中，而不是外部强制， 既要知，又要行. 知行和一.
+8. Teeth 牙齿保护，刷牙的方式，牙线，漱口水，等等 保护牙齿也是大投资之一.
 
 
 ## Plants/Fruits/[Guokr](http://www.guokr.com/group/36/)
