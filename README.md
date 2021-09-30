@@ -24,7 +24,7 @@ Now I can write diaries everywhere...cloud...云的概念...中心化 VS 分布�
 Add On Win10 Git For Windows... It seems everything is ok. 
 But I think working under linux is much happier and the future...
 
-#### 生物病毒，医疗行业， 201911 - 202002 深刻，我们并没有什么进步。
+#### 生物病毒，医疗行业， 201911 - 202109 深刻，我们仍有巨大进步空间，生物科学
 
 ***
 #### 培训，学习，交流 Fetch/Write
@@ -33,7 +33,8 @@ But I think working under linux is much happier and the future...
 
 #### 短期目标, 中期计划，长期规划, 多线执行, (人无远虑,必有近忧)
 1. 技术路线, Computer Science, Programming, Machine Learning, DeepLearning, Math, Optimization, 离散整数规划/优化,连续函数优化
-2. 经济金融路线(宏观,微观), Economy, Finance, 银行,证券,投资,分析... CFA? 
+2. 经济金融路线(宏观,微观), Economy, Finance, 银行,证券,投资,分析... CFA? CPA?
+3. How To Improve Strategy Skill? 战略思维能力的锻炼，战术成名的实践?
 
 ---
 ## Weekday Arrangement... Need To Swim 坚持游泳啊... 多吃百香果 && Run && 运动
